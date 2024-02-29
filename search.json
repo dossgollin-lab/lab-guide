@@ -1,0 +1,452 @@
+[
+  {
+    "objectID": "guides/open-science.html",
+    "href": "guides/open-science.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "Our lab is committed to supporting and contributing to open science.",
+    "crumbs": [
+      "Guides",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "guides/open-science.html#why-open-science",
+    "href": "guides/open-science.html#why-open-science",
+    "title": "Open Science",
+    "section": "Why open science?",
+    "text": "Why open science?\nThe Center for Open Science writes that:\n\nAn open exchange of ideas accelerates scientific progress towards solving humanity’s most persistent problems. The challenges of disease, poverty, education, social justice, and the environment are too urgent to waste time on studies lacking rigor, outcomes that are never shared, and findings that are not reproducible.\n\nUnfortunately, climate change adaptation is a field with especially severe problems of reproducibility and replicability (pollack_transparency:2023?). Making our work open and reproducible helps us to ensure that:\n\nour assumptions and modeling choices are transparent and documented, enabling scientific critique and discussion\nour research findings are accessible to the public, including people who aren’t able to afford expensive academic journal subscriptions\nwe can build on our own work in the future.\n\nLots of agencies, including NASA, the White House, the NSF, and many others are placing increasing emphasis on open science. Training group members in open science is a priority for our lab!\n\nDefinitions\nThe ideas of replicability, reproducibility, and open science are closely related.\n\nReproducibility means obtaining consistent computational results using the same input data, computational steps, methods, code, and conditions of analysis.\nReplicability means obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data. If an analysis is not reproducible, it’s hard for others to replicate it.\nOpen science is the idea that scientific research should be transparent and accessible to everyone.\n\nSee this National Academies News Release for more details.",
+    "crumbs": [
+      "Guides",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "guides/open-science.html#scientific-reproducibility",
+    "href": "guides/open-science.html#scientific-reproducibility",
+    "title": "Open Science",
+    "section": "Scientific reproducibility",
+    "text": "Scientific reproducibility\nUnless there are specific and compelling reasons (which should be documented and reviewed by peers), the necessary components of a scholarly work to provide reproducibility should be provided in a publicly accessible location and potentially as part of the scientific record. In the case of a simulation model, this would include things like:\n\na specification of the computing environment\nthe source code that ran the simulation\nthe parameter file or definitions file, and if applicable initial conditions, that ran the simulation\nanalysis code that generated plots for the paper\n\n\nTiming\nWe will make our data and code publicly available no later than with publication of our work, and often earlier.\n\n\nClosed-source tools\nAlthough our preference always is to use fully open-source tools, we occasionally use tools that we have a license to use but to disseminate. In such cases, some additional work is needed.\n\nIf we are using proprietary software, the exact version of the external software should be documented and instructions for how to install it identically should be made clear. Wherever possible, we avoid using proprietary software!\nIf we are using proprietary data, we should make clear the terms of use and how others can obtain the data. We should also make a reproducible example that uses open data to demonstrate the methods. See\n\n\n\nToolkit\nWe use lots of tools to facilitate reproducible science. Although it’s now a few years old Wilson et al. (2017) provides an excellent summary of the tools and practices that can be used to facilitate reproducible science.\nThe specific tools used need to be chosen based on the specific needs of the project. For computing, we often use tools like Python and Julia for programming, and Git or GitHub for version control. We use tools like Snakemake for workflow management. Final datasets and repositories can be published on sites like Zenodo. Preprints can be published on places like Arxiv or EarthArxiv. We try not to be ideological about the specific tools we use, but rather to ensure that the tools we use are appropriate for the task at hand and that we are using them in a way that is consistent with open science principles.\n\n\nSoftware Licenses\nSoftware and other research materials that we make available to the public must declare a license for re-use.\nAll code generated in the lab should be open-source with a permissive (non-copyleft) license (MIT, BSD, or Apache). In some cases, copyleft licenses like the GPL may be appropriate (the key distinction is that these require that derivative works also be open-source).\nIf contributions to upstream copyleft projects are made, those contributions can be licensed in accordance with the upstream project license.\nImportantly, in the lab we should cultivate an atmosphere of respect for licensing terms and ensuring that we are at all times in compliance with those terms. For help choosing a license, see https://choosealicense.com/licenses/ or read Stodden (2009).",
+    "crumbs": [
+      "Guides",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "guides/open-science.html#openness-to-the-public",
+    "href": "guides/open-science.html#openness-to-the-public",
+    "title": "Open Science",
+    "section": "Openness to the public",
+    "text": "Openness to the public\nWe seek to make our research accessible to all levels of an inquiring society, amateur or professional. This necessarily involves communicating methods and results to peers using scientific tools, and to the public through the channels.\n\nScientific communication\nWe communicate findings to our peers in academia and the broader research community through formal and informal writing, presentations, and code. In keeping with our open science principles, we:\n\npublish in open-access journals where appropriate, and make post-prints freely available when not\nmake preprints of work available on open-access servers at the time of submission (and update with later versions of the paper)\nsummarize findings in technical blog posts\npublish conference slides and posters on permanent repositories like figshare and Zenodo\nmake GitHub repositories for papers publicly available at the time of submission to a journal\nmake software available through permissive licenses\nwrite and share clear and well-organized scientific code\n\n\n\nPublic communication\nSome of our work is of general public interest or has the potential to inform policy. It would be unethical to allow only the best-educated members of the public to have access to this research – particularly since the effects of floods, unsafe water, and inadequate infrastructure disproportionately affect members of vulnerable and marginalized communities. To attempt to ensure that all members of the public have access to our research, we:\n\nsummarize findings in non-technical blog posts\ntranslate papers and communications as appropriate\nuse social media to share key findings\nwrite 2-page policy briefs or create video summaries of our work\n\nas appropriate. It can be very challenging to write about complex technical topics in a manner that is readily understandable to the public.",
+    "crumbs": [
+      "Guides",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "guides/authorship.html",
+    "href": "guides/authorship.html",
+    "title": "Authorship",
+    "section": "",
+    "text": "In collaborative research, it is important to talk early and often about authorship. It is James’s responsability as PI to lead this conversation. When collaborating with colleagues in other labs, especially those in different fields (which may have different norms about authorship), communicating clearly and frequently about authorship is critical.",
+    "crumbs": [
+      "Guides",
+      "Authorship"
+    ]
+  },
+  {
+    "objectID": "guides/authorship.html#general-guidelines",
+    "href": "guides/authorship.html#general-guidelines",
+    "title": "Authorship",
+    "section": "General Guidelines",
+    "text": "General Guidelines\nA good general reference for authorship is given by the American Geophysical Union guidelines, which state that authors are expected to do the following to contribute the highest quality science to AGU publications:\n\nPresent a precise and accurate account of the research performed and a clear, objective discussion of its significance.\nInclude sufficient detail and reference to sources of information in a manuscript to permit the author’s peers to repeat the work. Limitations on use of or access to data must be clearly identified.\nIdentify sources of all information and cite those publications that have been influential in determining the nature of the reported work and that guide the reader quickly to the primary and other earlier work essential for understanding the present investigation. Information obtained privately, as in conversation or correspondence, should not be used or reported without explicit permission from the source.\nCarefully document methodology, assumptions, and uncertainty.1\nFollow the appropriate procedures in force in their countries that govern the ethics of work done with human or animal subjects.\nNever plagiarize the work or ideas of others or your own work. Always provide appropriate citation. [The AGU provides further information on plagiarism, which you should read.]\nAvoid unnecessary fragmentation or redundant publication of research reports to artificially increase the number of publications.\nNever include personal criticism in a written piece of work.\nReport to the editor any changes made to the manuscript after acceptance.\nInclude as coauthors only those persons who have made significant scientific contributions to the work and determine order of authorship in a manner appropriate to the contribution.2 All coauthors share responsibility for the quality and integrity of the submitted and published manuscript.\nReveal to the editor any potential conflict of interest for any author that might be affected by publication of the results contained in a manuscript or in the development of the research.\nList all funding sources and sources of data or other in-kind support for all authors in the acknowledgments.\nIn the role of corresponding author, ensure that all coauthors are fully cognizant of the steps and changes in the manuscript during the peer review process.\n\nYou must follow these guidelines if you are listed as an author or coauthor on a paper submitted to an AGU journal, but you should follow them regardless.",
+    "crumbs": [
+      "Guides",
+      "Authorship"
+    ]
+  },
+  {
+    "objectID": "guides/authorship.html#paper-contract",
+    "href": "guides/authorship.html#paper-contract",
+    "title": "Authorship",
+    "section": "Paper Contract",
+    "text": "Paper Contract\nTo facilitate conversations about authorship, contribution, and research design, we write paper contracts early in the research design process. Paper contracts lay out the paper’s research questions, hypotheses, broad methodology, author line, submission plan, and author contributions. Templates and details are given on the Papers board in Notion.",
+    "crumbs": [
+      "Guides",
+      "Authorship"
+    ]
+  },
+  {
+    "objectID": "guides/authorship.html#footnotes",
+    "href": "guides/authorship.html#footnotes",
+    "title": "Authorship",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAccurately characterizing uncertainty is difficult; we do our best and then try to be transparent about assumptions, honest about limitations, and open about exposing our tools and methods to critique.↩︎\nThis may vary by journal. In some fields the norm is to order authors alphabetically or (to avoid disadvantaging authors whose names begin with Z) randomly. Check the expectations for the journal to which you are submitting.↩︎",
+    "crumbs": [
+      "Guides",
+      "Authorship"
+    ]
+  },
+  {
+    "objectID": "guides/contribute.html",
+    "href": "guides/contribute.html",
+    "title": "Contributing to the Lab Guide",
+    "section": "",
+    "text": "If there’s something you think can be improved, please contribute!\n\nCreate an account on GitHub if you don’t already have one.\nCreate an issue on the lab guide repository with a description of the change you’d like to make. If it’s vague, we can use this issue for further discussion.\n\nIf you’re comfortable with git and GitHub, you can also make the change yourself:\n\nFork the repository.\nClone the repository to your computer.\nOpen the repository in a text editor (e.g., VS Code) and make the changes you’d like to see.\nCommit your changes and push them to your fork.\nCreate a pull request to merge your changes into the main repository.",
+    "crumbs": [
+      "Guides",
+      "Contribute to the Lab Guide"
+    ]
+  },
+  {
+    "objectID": "joinus/checklist.html",
+    "href": "joinus/checklist.html",
+    "title": "Onboarding",
+    "section": "",
+    "text": "Read the lab guide and review it with James to discuss any questions or suggestions, and to make sure you understand the expectations and resources available to you.\nSet up your computer and work space. You do not need to spend your own money on this. If you need anything, let James know.\nGet added to the resources:\n\nGitHub organization for sharing code\nSlack for quick chats and project discussion\nZotero for sharing scientific papers and references\nGoogle Drive folder\n\nAdd yourself to the group website via a Pull Request (Confused? You’re not born knowing. Ask for help!):\n\nadd a square photo to assets/images/people/\nadd an entry to people/ with a bio and other information",
+    "crumbs": [
+      "Join Us",
+      "Onboarding checklist"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to our Lab Guide",
+    "section": "",
+    "text": "Welcome to the lab guide for the Doss-Gollin lab in the Department of Civil and Environmental Engineering at Rice University. If you’re looking for our group’s homepage, please find it here.\nThis document codifies lab practices and expectations for new and existing group members and is divided into three main sections:\n\nLab Expectations clarifies the expectations we have for ourselves and for one another.\nLab resources provides some how-to information and resources for lab members.\nJoin Us guides prospective group members through the process of joining.\n\n\n\n\n\n\n\nContribute\n\n\n\nThis is intended to be a living document and remains a work in progress. Lab and community members are strongly encouraged to contribute to this document! See here for instructions.\n\n\n\nMission\nOur mission is to support the social, environmental, and financial resilience of communities around the world by creatively informing the design and management of infrastructure systems. Through mission-oriented basic research guided by community engagement, we develop tools and methods to accurately, transparently, and collaboratively link decisions, outcomes, and preferences.\n\n\nCore values\n\nCreativity. As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.\nEquity. We recognize the burdens of systemic inequality and seek to promote fairness and justice.\nExcellence. We strive for excellence in all our activities and aim to be role models in all that we do. We seek to do what is right, not what is easy, and acknowledge when we fall short.\nHumility. We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.\nOpen Science. Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them.\n\n\n\n\n\n\n\nCredit\n\n\n\nThe organization and framing of this document borrows heavily from lab guides written by Lab Carpentry, the Advanced Reactors and Fuel Cycles group at UIUC, the Andersen Lab at Northwestern, the Computer-Oriented Geoscience Lab at University of Liverpool, the Ocean Transport Group at the Lamont-Doherty Earth Observatory, the Aly lab at Columbia, the Srikrishnan Lab at Cornell, and the Keller Lab Group at Dartmouth. We thank Jordy Padilla and Yash Amonkar for constructive suggestions.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html",
+    "href": "expectations/expectations.html",
+    "title": "Responsibilities",
+    "section": "",
+    "text": "This page outlines the responsibilities of everyone in the group. It is a living document and will be updated as the group evolves. If you have any questions or concerns about these responsibilities, please reach out to James.",
+    "crumbs": [
+      "Expectations",
+      "Responsibilities"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#everyone",
+    "href": "expectations/expectations.html#everyone",
+    "title": "Responsibilities",
+    "section": "Everyone",
+    "text": "Everyone\n\nExcellence: do work that you are proud of. Do work that others will care about. If you feel as though your work does not meet these standards, speak up. Double-check your work – being a little obsessive is essential to good science!\nSupportive: be supportive of your labmates. We are a team committed to learning from one another and helping each other succeed.\nContribute: group members should be physically present for group meetings and seminars, and should take turns to lead group meetings or discussions.\nProduce open science: see Open Science\nBe considerate: the lab expectations and guides are here for you. Read them, suggest changes you think would be helpful, use this resource.",
+    "crumbs": [
+      "Expectations",
+      "Responsibilities"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#pi-responsibilities",
+    "href": "expectations/expectations.html#pi-responsibilities",
+    "title": "Responsibilities",
+    "section": "PI responsibilities",
+    "text": "PI responsibilities\nAs the group leader, James has a unique and challenging range of responsibilities.\n\nBuild an Inclusive Environment: the PI is responsible for managing the social dynamic of the lab group to create a welcoming, inclusive, and productive environment.\nDefine Research Directions for the Group: Finding research questions that are socially relevant and scientifically novel is one of the hardest and most important components of basic applied research. It requires an awareness of the overall state of knowledge in the field, creativity, and plenty of luck.\nDefine the Technical Approach: Software and computing are very important to our group. The PI is working hard to provide a software and hardware environment that enables everyone else to be as productive as possible.\nDepartmental Service: The PI has lots of responsibilities to the department, including attending department meetings, participating in committees, and serving on student masters meetings / qualifying exams / thesis proposals / thesis defenses.\nProvide Scientific Mentoring: It is the PI’s responsibility to help the junior members in the group develop into mature, independent scientists, capable of defining and executing their own research programs. Lab members will meet annually to sketch a strategic plan for the academic year and regularly (for now, weekly) to stay in touch.\nManage the Publication Process: Published papers are the main output of our team. The PI can help identify when results are ready to publish, select which journals to target, and help manage the ups and downs of the revision process.\nObtain Funding: Scientific research is expensive! A central role of the PI is to obtain grant funding to support our work, without which no research could happen.\nProfessional Service: The PI is expected to participate in professional organizations (e.g. AGU, AMS) and review papers and proposals on an ongoing basis.\nProvide Feedback: The PI is expected to provide feedback on all aspects of research, including defining hypotheses and formulating questions; identifying specific methods and technical approaches; identifying relevant datasets; writing and debugging scientific code; producing figures and visualizations; managing data; and writing and editing papers. Feedback is also available on course selection, overall career goals, and long-term strategy.\nProvide Material Support: You are never expected to spend any of your personal finances on anything related to research. All conference travel, computer supplies, books, etc. can be paid for with grant support (see item 2 above). Coordinate these expenses, in advance, with James.\nProvide Moral Support: Graduate school, and research in general, can be an emotional roller coaster. James has been through these challenges personally and is always available to listen and provide advice (though you should also see the Health Resources page).\nProvide Recommendation Letters: You need them for almost every career move.\nSet Goals and Timelines: The PI can help give structure to your project by defining specific milestones and timelines for their completion. Some people prefer to be closely managed in this way, while others may prefer a more hands-off approach.\nSign Stuff: There are lots of signatures needed to navigate the bureaucracy.\nTeach Classes: The PI’s main job is to teach at least one course for semester, which occupies a large fraction of available time and effort.",
+    "crumbs": [
+      "Expectations",
+      "Responsibilities"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#graduate-student-responsibilities",
+    "href": "expectations/expectations.html#graduate-student-responsibilities",
+    "title": "Responsibilities",
+    "section": "Graduate Student Responsibilities",
+    "text": "Graduate Student Responsibilities\nGraduate students are both students and workers, leading to a complex range of responsibilities to manage.\n\nApply for External Funding. Applying to external funding (e.g., NSF GRFP) that you are eligible for is required of our graduate students, but even if it wasn’t, I would recommend it because it is such a valuable learning experience. We maintain a list of funding opportunities on Slack.\nBe Professional and Organized: Develop a system that works for your for managing your responsibilities, coursework, and research. This is one of the biggest challenges of graduate school and there is no formula that works for everyone.\nLead 1:1 Meetings with James. Individual meetings are a time to discuss your research, goals, time management, and any other issues that may be on your mind. It is your job to lead these meetings by sending James an agenda 24 hours in advance, by preparing slides (as needed) for the meeting, and by following up on any action items that are discussed. Do not wait for James to tell you what to do in these meetings – you should be the one driving the conversation.\nDevelop Independence: Your goal is to become an independent scientist. This means you should not hesitate to pursue your own ideas as they arise. Go to as many talks as you can to learn new things! Read (and re-read) papers in your field and outside it. Download that dataset and analyze it! Run that new model! Don’t wait to be told to do things. Take the initiative.\nFocus on your Research: Your research is the most important part of your grad school experience. It should be your main priority, and you should approach it with the seriousness and professionalism you would a full-time job. It is easy to get caught up in coursework or TA-ing, but at the end of 5-ish years, you need to have completed a dissertation.\nStay in Good Standing: it is YOUR responsibility to understand all of the formal requirements of the graduate school and the department, and to stay ahead of all deadlines regarding registration, paperwork, qualifying exams, committee meetings, etc.\nDo Some Soul-Searching: it is your responsibility to think about what type of career you want to pursue (e.g., academic jobs that are research-focused or teaching-focused, non-academic jobs like data science or science writing). We can brainstorm ways of making sure you are getting the training that you need and exposure to paths that you may be interested in.",
+    "crumbs": [
+      "Expectations",
+      "Responsibilities"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#undergraduate-responsibilities",
+    "href": "expectations/expectations.html#undergraduate-responsibilities",
+    "title": "Responsibilities",
+    "section": "Undergraduate Responsibilities",
+    "text": "Undergraduate Responsibilities\nUndergraduate students in the research group have a few core responsibilities.\n\nLearn a lot\nKeep track of and fulfill all college requirements\nWork on average 10hrs per week (unless otherwise discussed)\nTrack time spent working honestly and accurately\nSubmit weekly written reports and/or slides to James\nAttend lab meetings when consistent with your schedule\nBe helpful, friendly, and open to new ideas",
+    "crumbs": [
+      "Expectations",
+      "Responsibilities"
+    ]
+  },
+  {
+    "objectID": "expectations/harassment.html",
+    "href": "expectations/harassment.html",
+    "title": "Harassment",
+    "section": "",
+    "text": "This policy on harassment represents a non-negotiable first step towards our mission of building an inclusive, diverse, and equitable environment. All members of the research group are required to abide by the following policy on harassment in the workplace and to enforce these guidelines collectively.",
+    "crumbs": [
+      "Expectations",
+      "Harassment and Discrimination"
+    ]
+  },
+  {
+    "objectID": "expectations/harassment.html#the-quick-version",
+    "href": "expectations/harassment.html#the-quick-version",
+    "title": "Harassment",
+    "section": "The quick version",
+    "text": "The quick version\nThis research group is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of group members or other colleagues in any form. Sexual language and imagery is not appropriate for any professional setting, including talks, workshops, parties, Twitter, and other online media. Research group members violating these rules may be sanctioned or expelled from the group at the discretion of James Doss-Gollin.",
+    "crumbs": [
+      "Expectations",
+      "Harassment and Discrimination"
+    ]
+  },
+  {
+    "objectID": "expectations/harassment.html#the-less-quick-version",
+    "href": "expectations/harassment.html#the-less-quick-version",
+    "title": "Harassment",
+    "section": "The less quick version",
+    "text": "The less quick version\nAll Rice employees and students must understand and comply with the University’s policies and procedures regarding harassment and discrimination, including but not limited to the Policy on Harassment and Sexual Misconduct and the Prohibited Behaviors. In addition to these formal procedures, our group adopts additional informal guidelines on conduct which may go beyond the University’s policies.\nHarassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of the research environment, talks, or other events, inappropriate physical contact, unwelcome sexual attention, or creation of an otherwise sexualized environment.\nGroup members asked to stop any harassing behavior are expected to comply immediately.\nIf a member engages in harassing behavior, other group members and James Doss-Gollin may take any action they deem appropriate to stop this behavior, including warning the offender or expulsion from the group and sanction through official Rice University channels.\nIf you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact James Doss-Gollin immediately. James is available to help group members contact security or local law enforcement, navigate official University reporting channels, or otherwise assist those experiencing harassment to feel safe in the research environment. If James is the cause of the concern or you would prefer he not be involved, official concerns can be directed to the Office for Interpersonal Misconduct Prevention and Support, Office of Diversity and Inclusion, or Title IX Office.\nWe expect research group members to follow these rules in all professional settings including the office, conferences, workshop venues, and group-related social events. We additionally expect members to treat each other professionally with respect to their work and workspaces, with constructive criticism, without dismissive behavior, and without disruption of shared working spaces.",
+    "crumbs": [
+      "Expectations",
+      "Harassment and Discrimination"
+    ]
+  },
+  {
+    "objectID": "expectations/health.html",
+    "href": "expectations/health.html",
+    "title": "Health and Wellbeing",
+    "section": "",
+    "text": "Priorities\n\n\n\nYour health, safety, and well-being are our top priorities.\nNo project, paper, grant or collaboration exists that is more important than you. Graduate students and postdocs are exposed to a plethora of stress factors, resulting in consequences that can be mild to extremely severe. Quoting from the article Graduate School Can Have Terrible Effects on People’s Mental Health:\nIf you feel you may be facing mental health challenges, don’t worry that your problems are too minor or feel ashamed – you’re not alone!",
+    "crumbs": [
+      "Expectations",
+      "Well-being"
+    ]
+  },
+  {
+    "objectID": "expectations/health.html#staying-healthy",
+    "href": "expectations/health.html#staying-healthy",
+    "title": "Health and Wellbeing",
+    "section": "Staying healthy",
+    "text": "Staying healthy\nWith this in mind, our group strives to do everything possible to support lab members and ensure a healthy work-life balance. The vacation and workload expectations defined in Roles and Responsibilities are a big part of this. Some other tips, based on experience, are the following:\n\nMaintain a healthy sleep schedule.\nPursue interests and hobbies outside of your work. These help relieve stress. They also benefit your research! Stepping away from your problem and letting your mind wander elsewhere is, counterintuitively, a great way to stimulate creative thought.\nDevelop a support network among your peers. They understand the struggle!\nUse mental health resources! Seeking help with your mental hygiene and wellness is a (well-deserved!) investment in yourself.\nAdvocate for your needs with the group, and with the Rice community more broadly. We care!\n\n\n\n\n\n\n\nImportant\n\n\n\nIf you or someone you know may be considering suicide, contact the National Suicide Prevention Lifeline at 1-800-273-8255.",
+    "crumbs": [
+      "Expectations",
+      "Well-being"
+    ]
+  },
+  {
+    "objectID": "expectations/health.html#keeping-each-other-healthy",
+    "href": "expectations/health.html#keeping-each-other-healthy",
+    "title": "Health and Wellbeing",
+    "section": "Keeping each other healthy",
+    "text": "Keeping each other healthy\n\nDo not come into the lab if you are sick. Stay home and get healthy, and don’t risk getting others sick.",
+    "crumbs": [
+      "Expectations",
+      "Well-being"
+    ]
+  },
+  {
+    "objectID": "expectations/health.html#campus-resources",
+    "href": "expectations/health.html#campus-resources",
+    "title": "Health and Wellbeing",
+    "section": "Campus resources",
+    "text": "Campus resources\nProviding moral support and guidance is part of James’s job as group leader (meaning that you should not hesitate to ask for moral support or guidance!) but he is not a trained psychologist or counselor. Fortunately Rice offers free mental wellness services:\n\nthe Rice Wellbeing and Counseling Center provides a first point of contact for students who want to talk to someone about solutions to their wellbeing concerns\nthe Rice Counseling Center offers free, confidential support",
+    "crumbs": [
+      "Expectations",
+      "Well-being"
+    ]
+  },
+  {
+    "objectID": "joinus/gradadmissions.html",
+    "href": "joinus/gradadmissions.html",
+    "title": "Graduate Admissions",
+    "section": "",
+    "text": "If you are unsure whether you would be a good fit, you can send me an email of interest. Please see below for instructions (if you send me a generic email I probably won’t respond!)",
+    "crumbs": [
+      "Join Us",
+      "Graduate Admissions"
+    ]
+  },
+  {
+    "objectID": "joinus/gradadmissions.html#open-positions",
+    "href": "joinus/gradadmissions.html#open-positions",
+    "title": "Graduate Admissions",
+    "section": "Open Positions",
+    "text": "Open Positions\nWhen funding is available for M.S. and Ph.D students to do specific work, these positions will be advertised on the group’s “Join Us” page. When projects allow for a broader scope, or more general funding is available, that same page will note how many students the group is looking to take on. If you have external funding or a specific research idea, you should reach out (see below) even if there’s not a position posted.",
+    "crumbs": [
+      "Join Us",
+      "Graduate Admissions"
+    ]
+  },
+  {
+    "objectID": "joinus/gradadmissions.html#how-to-apply",
+    "href": "joinus/gradadmissions.html#how-to-apply",
+    "title": "Graduate Admissions",
+    "section": "How to apply",
+    "text": "How to apply\nIn order to join the group as a graduate student, you must apply to the program of your choice in the Department of Civil and Environmental Engineering. See Rice graduate admission guidelines. It is your responsibility to keep track of all required deadlines, materials, etc!\n\nBefore formally applying\nApplying to graduate school is a time- and money-consuming process. You are strongly encouraged (though not required) to reach out before formally applying as this can help to give both of us a sense of whether it’s worth the investment of your time to apply.\nTo reach out, please read the instructions below and then fill out this form. If you send me an email, you will get a template email directing you to fill out the form. I get too many emails from prospective students to keep track of all of them effectively.\n\nDecide if you are interested\n\nRead relevant websites and our papers to judge whether this is a good fit.\nNote the kind of quantitative research we do, the approaches we use, and the problems we analyze.\nFeel free to explore websites of coauthors and close collaborators.\nReview the core values we adopt in the lab group (described int his document) and decide whether they are compatible with your values and goals.\n\nFill out the form” If you are still interested and see the potential for a good fit, fill out the form for prospective applicants.\n\nThis form asks for a statement of purpose. See “how to write a good application” for some helpful tips on how to write a good one! Statements that do not follow these tips are unlikely to stand out and will probably not lead to you being accepted.\nFill out all requested questions thoughtfully. I suggest to draft text inputs in another application so that if your internet connection is disrupted nothing is lost.\nI will follow up via email.\n\nVideo chats\n\nThese are intended to evaluate your verbal communications skills and how well you can articulate your interests. If a video chat does not work for you, we can find alternatives.\nThere is no need for fancy backgrounds, formal presentations, or for dressing up.\nIf this is of joint interest, you should apply formally to the department (see next)\n\n\n\n\nThe formal application\nWhether you have been in touch or not, you must apply to the Department of Civil and Environmental Engineering at Rice. This will give the department an opportunity to view your transcripts, letters of recommendation, and statement of purpose. Of these, the step you most control is the statement of purpose; see below for tips on information on how to write a strong statement of purpose that enhances your chances of admission.\nAfter formal applications are submitted, I will follow up with information on a formal interview.",
+    "crumbs": [
+      "Join Us",
+      "Graduate Admissions"
+    ]
+  },
+  {
+    "objectID": "joinus/gradadmissions.html#how-to-write-a-good-application",
+    "href": "joinus/gradadmissions.html#how-to-write-a-good-application",
+    "title": "Graduate Admissions",
+    "section": "How to write a good application",
+    "text": "How to write a good application\nAlthough your application is assessed holistically, you should focus on crafting the statement of purpose to make sure that it clearly and obviously answers all three of these questions. A good statement of purpose should clearly articulate:\n\nHow would joining this lab group advance your career and life goals?\nWhat kind of research would you like to carry out in your Ph.D.?\nHow does your current skill-set map to the needs for the project? What will you need to learn?\nWhy is James the right supervisor for you to carry out this research?\nWhat synergies do you see with the group?\n\nIf your statement of purpose does not directly address these questions, it is unlikely to stand out and will decrease your chances of being accepted. For some additional generic advice, check out the following resources:\n\nMatt Might’s How to Get Into Grad School post (note that this is aimed at computer science, but is overall similar)\nthis MIT guide to the statement of purpose\nRice University’s guidance to the statement of purpose\nChris Blattman’s Twitter Thread and blog post on writing a strong statement of purpose (tailored to economics and social sciences, but the advice is highly applicable!)",
+    "crumbs": [
+      "Join Us",
+      "Graduate Admissions"
+    ]
+  },
+  {
+    "objectID": "joinus/gradadmissions.html#faq",
+    "href": "joinus/gradadmissions.html#faq",
+    "title": "Graduate Admissions",
+    "section": "FAQ",
+    "text": "FAQ\nAre positions fully funded?\nIn short: yes. All Ph.D. positions within the group will be fully funded. That includes tuition support, a stipend, and other benefits – see Rice’s 2022 Announcement. You will get more details in your formal offer letter if accepted.\nShould I write a research proposal?\nYou should include some research goals and ideas in your statement of purpose, but don’t write a separate research proposal. See the advice listed above for more details.\nHow is it the best way to find a master/Phd opportunity?\nWhen you’re applying to an undergraduate program, you care the most about the university. When applying to a PhD (in engineering at least), you care the most about the research group you will be working with.\nStart by thinking about what kind of research you want to do. Do you like lab work or computational work? What problems do you want to use? What classes do you want to take? Sketch out some research ideas that interest you. Then, conduct a literature review and find out who is working in this space. Look at their web pages and papers and look for research groups that appeal to you.\nHow often do students usually travel for conferences?\nAfter the first year (primarily classes) I aim to fund students to go to the American Geophysical Union Fall Meeting (1 week in December) or the American Society of Civil Engineers Environment / Water Resources Institute annual meeting (1 week in May). There are also lots of smaller and more targeted workshops that are often great experiences – they often have some student travel grants and with planning we can often fund student travel.\nWhat are things you wish more students knew before joining your program?\nI got some feedback from current students for this.\n\nBalancing course requirements (roughly 6 courses – see student handbook for details) and research can be a challenge, especially for first-year graduate students who generally have the heaviest courseloads.\nFor anyone doing modeling or data-driven work, most of your day will be spent (i) reading, (ii) writing, or (iii) coding. You should strive to improve your effectiveness in all three areas and plan to spend much of your day at a computer (which also means being deliberate about getting out of your computer!)\nYou will get more out of grad school (this applies to any program!) if you have a clear idea of what you want to learn and what you want to get out of grad school.\n\nWhat is the worst quality of life pain point that your students go through?\nI got some feedback from current students for this.\n\nTrying to learn how to do research while also taking a heavy courseload can make for a tough first semester (this was also my experience).\n\nHow has the lab planned and handled for student’s growth throughout their graduate program?\nI got some feedback from current students for this. We’re still figuring this out and will continue to adapt as we learn more. Students learn best from each other, so we have regular reading groups, where we meet (often with friends from other groups) to discuss papers. We help each other prepare for conferences, give each other feedback on papers, etc. This only works in an environment where we trust each other (both giving and getting feedback require trust) so we need to hold ourselves and each other to a high standard of integrity (i.e., be trustworthy!) As a young / small group, it’s also important to have interaction with people outside the group – we have meetings and social events with other lab groups, and most students are working on collaborative projects that include people from beyond our group.\nHow are publication credits discussed in the lab?\nPlease see authorship guidelines. Journals typically have clear expectations about what constitutes authorship and we follow those guidelines. The most important rule is to have clear conversations about authorship early on (this is the PI’s responsibility but students are always welcome to ask about authorship!)\nHow has the lab dealt with academic and social misconduct situations (plagiarism, bullying, harassment, misogyny, racism, transphobia, etc)?\nSo far we’ve been fortunate to have avoided significant academic and social misconduct. We obviously follow Rice University policies. We’ve also developed a policy on harassment and other expectations that will guide us if (when) these come up. In general we set high expectations for ourselves and for one another because a collaborative and open environment, which benefits everyone, requires mutual trust and respect.",
+    "crumbs": [
+      "Join Us",
+      "Graduate Admissions"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html",
+    "href": "joinus/undergrad.html",
+    "title": "Undergraduate Research",
+    "section": "",
+    "text": "!!! info “Credit” Specific language on this page comes from the MemoLab at Boston College.",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#openings-and-applying",
+    "href": "joinus/undergrad.html#openings-and-applying",
+    "title": "Undergraduate Research",
+    "section": "Openings and Applying",
+    "text": "Openings and Applying\nThere are three main ways to do research as an undergraduate:\n\nFor credit\nAs a senior thesis\nFor pay\n\nPlease see the lab website’s “Join Us” page for advertised positions, although you’re always welcome to reach out if you have a specific idea (see below). Specific positions for pay may be also advertised as announcements on the lab website.\n\nResearch for Credit\nIf you want to work in lab and earn course credit, you can sign up for undergraduate research (discuss CEVE 499 with a program administrator or adviser). We will have to fill out a syllabus contract at the beginning of the semester. Typically you would be in lab for at least 10 hours a week, and you would also be required to attend lab meetings, read a few papers, and complete a few short written assignments. You can enroll in undergraduate research multiple times, subject to the requirements of the University and your degree.\nTo Apply: send me an email from your Rice University account:\n\nPut “CEVE 499: Research for Credit” in the subject line of the email,\nAttach your CV or resume (short is fine, undergrads don’t need a 5 page CV!) as a .pdf file\nAttach a 1-2 page project proposal. The more detailed, the better (see below) as a .pdf file\nSuggest some times when you might be available to talk further in the body of the email.\n\n\n\nSenior Thesis Supervision\nIf you are interested in having me supervise your senior thesis project, I recommend doing research for credit course during your sophomore or junior year. However, this is not a strict requirement (especially in 2021 since I’m new here!!)\nTo Apply: as above (to do research for credit) but put “Senior Thesis Supervision” in the subject line of the email.\n\n\nResearch for Pay\nIf you want to work in lab and earn money, there are two different options. The lab can pay you as a research assistant, typically 5-10 hours per week at $12 per hour or as discussed. We have a limited number of hours available each semester, so these positions are competitive. Open positions may be posted on our lab website, but if you have concrete ideas you can propose a project (see below).\nWe can apply for an undergraduate research fellowship to fund your time in lab. Because these fellowships are intended to support your academic development, undergraduate fellows will be required to participate in lab meetings. This option is also available during the summer.\nTo Apply: as above (to do research for credit) but put “Research for Pay” in the subject line of the email.\n\n\nVolunteer Research\nUnpaid internships give an unfair advantage to those who can afford to volunteer their time and contribute to unequal representation in the field. We do not take unpaid volunteers as research assistants in our lab, except for academic credit.",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#how-to",
+    "href": "joinus/undergrad.html#how-to",
+    "title": "Undergraduate Research",
+    "section": "How To",
+    "text": "How To\n\nWrite a Project Proposal\nA project proposal is a first draft of a semester research plan that we will craft together. This document will lay out research questions, research goals, research milestones and timelines, the tools you will need to carry out the research, and the mentoring and guidance you will need. As you write the first draft, your main goal is to convince me that you’ve thought about what research you want to do, that this research serves some intellectual or career goals that you have, that you have most of the skills you will need to do it, and that it’s something that I would be well suited to supervise. Some things that I’m looking for when reading a project proposal are:\n\nIs the research feasible? (Do you have the skills needed? Do I have the resources needed?)\nIs the research interesting? Do you have a sense of previous work in this area? Are there social, policy, or technical implications?\nAre you going to be motivated? Does this advance real goals that you have?\nAm I the right mentor for this work? Do I have the skills and resources needed to support you?\nDoes this research advance my goals?1",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#faq",
+    "href": "joinus/undergrad.html#faq",
+    "title": "Undergraduate Research",
+    "section": "FAQ",
+    "text": "FAQ\nIf you email me with a question, I may ask your permission to post that question and answer (with anonymity) on this section. This can help future prospective students.",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#footnotes",
+    "href": "joinus/undergrad.html#footnotes",
+    "title": "Undergraduate Research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis one is a bit trickier, since you don’t necessarily know my goals! However, if your research is tied to projects I’m working on or have worked on in the past, or if it’s related to something we’ve talked about in the past, there’s a good chance that it advances my goals. Don’t get too stressed about this part.↩︎",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "guides/travel.html",
+    "href": "guides/travel.html",
+    "title": "Travel",
+    "section": "",
+    "text": "Credit\n\n\n\nSpecific language on this page comes from the MemoLab at Boston College.",
+    "crumbs": [
+      "Guides",
+      "Traveling"
+    ]
+  },
+  {
+    "objectID": "guides/travel.html#funding",
+    "href": "guides/travel.html#funding",
+    "title": "Travel",
+    "section": "Funding",
+    "text": "Funding\nThe lab will typically pay for full-time lab members to present their work at major conferences (e.g., AGU, ASCE EWRI, etc.). In general, the work should be “new” in that it has not been presented previously, and it should be appropriate for the conference. Lab members should typically expect to travel to one major conference per year, subject to funding.\nIf you are interested in attending a conference, please discuss it with James well in advance!\n\nTravel budget\nGrant budgets typically estimate flights plus $200 per day for hotel and meal costs, so your reimbursable costs should be around that amount or less. If travel expenses are being paid off of a grant, additional restrictions may apply!\n\n\nShared responsibility\nLab members are required to apply for other sources of funding available to them (e.g., departmental and university funds, conference student travel awards, etc.).\n\n\nAcommodations\nLab members may sometimes book shared accommodations (e.g, AirBnB) for travel. This can save money and be more pleasant than staying at a hotel. However, if you don’t feel comfortable in a shared space you are welcome to arrange other accommodation. Your individual safety and comfort in your lodging space should be of chief concern.\n\n\nReimbursement\nYou typically have two choices for travel expenses: you can pay for expenses yourself and seek reimbursement through Rice, or you can ask James to pay for expenses directly using a Rice credit card. In either case, you need to keep all receipts and organize them in a way that makes it easy to submit them for reimbursement. Lab members are responsible for submitting their own expenses for reimbursement.",
+    "crumbs": [
+      "Guides",
+      "Traveling"
+    ]
+  },
+  {
+    "objectID": "guides/travel.html#conduct",
+    "href": "guides/travel.html#conduct",
+    "title": "Travel",
+    "section": "Conduct",
+    "text": "Conduct\nAll expectations of conduct apply to members who are traveling. Conferences and workshops may have further guidelines for conduct, and members are expected to follow both the letter and the spirit of these guidelines.",
+    "crumbs": [
+      "Guides",
+      "Traveling"
+    ]
+  },
+  {
+    "objectID": "guides/travel.html#safety",
+    "href": "guides/travel.html#safety",
+    "title": "Travel",
+    "section": "Safety",
+    "text": "Safety\nInformal meetings and get-togethers, often at bars and restaurants, are an important component of many academic conferences and workshops. These can be a fun and enjoyable way to develop long-lasting connections with colleagues at other institutions and to explore the cities where conferences are held. Informal gatherings are also important for networking and can lead to future job offers and other opportunities. Unfortunately, uncomfortable and unsafe situations can arise in these settings, particularly where the power dynamics of academia are mixed with relaxed settings and alcohol. To care for ourselves and for one another, you should:\n\nHave contact information (e.g., cell phone numbers) of other group members you are traveling with.\nLet someone (another lab member or a friend who lab members could contact) know where you are.\nResearch the place you are visiting and have phone numbers handy that you can call if you need help.\nLab members who feel unsafe or think another lab member may be unsafe (including experiencing harassment) should seek help immediately. You should call James 24/7 if you suspect that a lab member may be unsafe.",
+    "crumbs": [
+      "Guides",
+      "Traveling"
+    ]
+  },
+  {
+    "objectID": "guides/lor.html",
+    "href": "guides/lor.html",
+    "title": "Letters of Recommendation",
+    "section": "",
+    "text": "!!! info “Credit” Specific language on this page comes from the Peelle Lab at Washington University in Saint Louis.\nLetters of Recommendation (LORs) are an important currency in our field, especially around hiring (everything from applying to grad school to academic and industry jobs). Writing LORs is largely a PI responsibility. However, if you would like a LOR there are things you can do to make the process smooth and ensure that you get a good letter.",
+    "crumbs": [
+      "Guides",
+      "Letters of Recommendation"
+    ]
+  },
+  {
+    "objectID": "guides/lor.html#should-i-ask",
+    "href": "guides/lor.html#should-i-ask",
+    "title": "Letters of Recommendation",
+    "section": "Should I Ask?",
+    "text": "Should I Ask?\nI (James) will write a letter for any student or lab member who has spent at least three months working in the lab. Letters will be provided for shorter-term lab members in exceptional circumstances (e.g., new graduate students or postdocs applying for fellowships). I maintain this policy because I do not think that I can adequately evaluate someone who has been around for less than a year.\n\nStudents\nIf you have taken a class with me but not worked in my lab, I may not be a strong letter writer for you. However, if you need a LOR and don’t have better letter writers, you’re welcome to ask. Understand that I can only write about your",
+    "crumbs": [
+      "Guides",
+      "Letters of Recommendation"
+    ]
+  },
+  {
+    "objectID": "guides/lor.html#how-to",
+    "href": "guides/lor.html#how-to",
+    "title": "Letters of Recommendation",
+    "section": "How To",
+    "text": "How To\n\nI request at least three weeks of notice for letters of recommendation and request more. If you have asked me for a similar letter in the past, then less time is probably OK. If something comes up and you have to ask me for a letter with less advance notice I will do my best to accommodate but might have to say no.\nProvide key information in a single email to me (this is one of a few things that shouldn’t go on Slack)\n\nDeadline of the letter\nMain things to focus on:\n\nWhat do you hope that I will say about you?\nHow will your application be evaluated?\nWhy am I particularly well suited to write you a letter of application?\n\nAny materials you have submitted as part of your application (it’s OK if these are draft materials)\nClear instructions on how to submit the letter.\nProvide a critical self-assessment. What are your strong points? What are points for growth? This is part of the letter, so if you can provide suggestions\n\nProvide updates as the deadline approaches",
+    "crumbs": [
+      "Guides",
+      "Letters of Recommendation"
+    ]
+  },
+  {
+    "objectID": "guides/lor.html#pro-tips",
+    "href": "guides/lor.html#pro-tips",
+    "title": "Letters of Recommendation",
+    "section": "Pro Tips",
+    "text": "Pro Tips\nYou are encouraged to read advice like\n\nHow to get a great letter of recommendation by Matt Might.\nthis Twitter thread:\n\n\nIt's application season. In just a couple years I went from a near total rejection rate to a 100% success rate for everything I've applied for. In addition to luck + timing, one of the biggest changes I made came from letters of recommendation. Let me show you how. 🧵\n\n— Dr. Arianna Long ((astroarianna?)) October 17, 2022",
+    "crumbs": [
+      "Guides",
+      "Letters of Recommendation"
+    ]
+  }
+]
