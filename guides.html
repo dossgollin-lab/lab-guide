@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Explore our collection of guides covering everything from authorship etiquette to open science practices. Find the information you need to thrive in our lab and beyond.">
 
-<title>Lab Guide - Health and Wellbeing</title>
+<title>Lab How-To Guides – Lab Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../guides/authorship.html" rel="next">
-<link href="../expectations/expectations.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./expectations/harassment.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,10 +70,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Lab Guide - Health and Wellbeing">
-<meta property="og:description" content="Lab guide and expectations for the Doss-Gollin Lab in the Civil and Environmental Engineering Department at Rice University">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Lab Guide" href="guides.xml" data-external="1"><meta property="og:title" content="Lab How-To Guides – Lab Guide">
+<meta property="og:description" content="Explore our collection of guides covering everything from authorship etiquette to open science practices. Find the information you need to thrive in our lab and beyond.">
 <meta property="og:site_name" content="Lab Guide">
 </head>
 
@@ -81,12 +142,12 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Doss-Gollin Group Lab Guide</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -103,26 +164,26 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../expectations/harassment.html">Expectations</a></li><li class="breadcrumb-item"><a href="../expectations/health.html">Well-being</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./guides.html">Lab How-To Guides</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -134,105 +195,58 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./guides.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Lab How-To Guides</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Expectations</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../expectations/harassment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Harassment and Discrimination</span></a>
+  <a href="./expectations/harassment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Harassment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../expectations/expectations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Responsibilities</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../expectations/health.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Well-being</span></a>
+  <a href="./expectations/expectations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Expectations</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Guides</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Join Us</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../guides/authorship.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Authorship</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guides/contribute.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contribute to the Lab Guide</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guides/lor.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Letters of Recommendation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guides/open-science.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Open Science</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guides/travel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Traveling</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Join Us</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../joinus/gradadmissions.html" class="sidebar-item-text sidebar-link">
+  <a href="./joinus/gradadmissions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Graduate Admissions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../joinus/undergrad.html" class="sidebar-item-text sidebar-link">
+  <a href="./joinus/undergrad.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Undergraduate Reserach</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../joinus/checklist.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Onboarding checklist</span></a>
   </div>
 </li>
       </ul>
@@ -243,27 +257,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#staying-healthy" id="toc-staying-healthy" class="nav-link active" data-scroll-target="#staying-healthy">Staying healthy</a></li>
-  <li><a href="#keeping-each-other-healthy" id="toc-keeping-each-other-healthy" class="nav-link" data-scroll-target="#keeping-each-other-healthy">Keeping each other healthy</a></li>
-  <li><a href="#campus-resources" id="toc-campus-resources" class="nav-link" data-scroll-target="#campus-resources">Campus resources</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/lab-guide/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="health.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="career-development">career-development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="collaboration">collaboration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="for-grad-students">for-grad-students <span class="quarto-category-count">(5)</span></div><div class="category" data-category="for-postdocs">for-postdocs <span class="quarto-category-count">(5)</span></div><div class="category" data-category="for-undergrads">for-undergrads <span class="quarto-category-count">(5)</span></div><div class="category" data-category="open-science">open-science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="publishing">publishing <span class="quarto-category-count">(2)</span></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="guides.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../expectations/harassment.html">Expectations</a></li><li class="breadcrumb-item"><a href="../expectations/health.html">Well-being</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Health and Wellbeing</h1>
+<h1 class="title">Lab How-To Guides</h1>
+</div>
+
+<div>
+  <div class="description">
+    Explore our collection of guides covering everything from authorship etiquette to open science practices. Find the information you need to thrive in our lab and beyond.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -275,67 +286,113 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Priorities
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Your health, safety, and well-being are our top priorities.</p>
-</div>
-</div>
-<p>No project, paper, grant or collaboration exists that is more important than you. Graduate students and postdocs are exposed to a plethora of stress factors, resulting in consequences that can be mild to extremely severe. Quoting from the article <a href="https://www.theatlantic.com/education/archive/2018/11/anxiety-depression-mental-health-graduate-school/576769/">Graduate School Can Have Terrible Effects on People’s Mental Health</a>:</p>
-<blockquote class="blockquote">
-<p>The doctoral-degree experience often consists of intense labor expectations for little pay and a resulting lack of sleep and social life. In addition, there is the notorious hierarchy of academia, which often promotes power struggles and tribalism…. Graduate students are disproportionately likely to struggle with mental-health issues. The researchers surveyed roughly 500 economics Ph.D.&nbsp;candidates at eight elite universities, and found that 18 percent of them experienced moderate or severe symptoms of depression and anxiety. That’s more than three times the national average, according to the study.</p>
-</blockquote>
-<p>If you feel you may be facing mental health challenges, don’t worry that your problems are too minor or feel ashamed – you’re not alone!</p>
-<section id="staying-healthy" class="level2">
-<h2 class="anchored" data-anchor-id="staying-healthy">Staying healthy</h2>
-<p>With this in mind, <strong>our group strives to do everything possible to support lab members</strong> and ensure a healthy work-life balance. The vacation and workload expectations defined in <a href="../expectations/expectations.html">Roles and Responsibilities</a> are a big part of this. Some other tips, based on experience, are the following:</p>
-<ol type="1">
-<li>Maintain a healthy sleep schedule.</li>
-<li>Pursue interests and hobbies outside of your work. These help relieve stress. They also benefit your research! Stepping away from your problem and letting your mind wander elsewhere is, counterintuitively, a great way to stimulate creative thought.</li>
-<li>Develop a support network among your peers. They understand the struggle!</li>
-<li>Use mental health resources! Seeking help with your mental hygiene and wellness is a (well-deserved!) investment in yourself.</li>
-<li>Advocate for your needs with the group, and with the Rice community more broadly. We care!</li>
-</ol>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you or someone you know may be considering suicide, contact the National Suicide Prevention Lifeline at 1-800-273-8255.</p>
-</div>
-</div>
-</section>
-<section id="keeping-each-other-healthy" class="level2">
-<h2 class="anchored" data-anchor-id="keeping-each-other-healthy">Keeping each other healthy</h2>
-<ol type="1">
-<li>Do not come into the lab if you are sick. Stay home and get healthy, and don’t risk getting others sick.</li>
-<li></li>
-</ol>
-</section>
-<section id="campus-resources" class="level2">
-<h2 class="anchored" data-anchor-id="campus-resources">Campus resources</h2>
-<p>Providing moral support and guidance is part of James’s job as group leader (meaning that you should not hesitate to ask for moral support or guidance!) but he is not a trained psychologist or counselor. Fortunately Rice offers free mental wellness services:</p>
-<ul>
-<li>the <a href="https://wellbeing.rice.edu/studentwellbeing">Rice Wellbeing and Counseling Center</a> provides a first point of contact for students who want to talk to someone about solutions to their wellbeing concerns</li>
-<li>the <a href="https://wellbeing.rice.edu/counseling-center/about-us">Rice Counseling Center</a> offers free, confidential support</li>
-</ul>
+<p>Welcome to our lab’s resource hub! Here you’ll find a collection of guides to help you navigate your research journey. Whether you’re a new member or a seasoned researcher, these resources are designed to support your work and uphold our lab’s values.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="publishing,for-undergrads,for-grad-students,for-postdocs" data-listing-date-sort="1723680000000" data-listing-file-modified-sort="1723731625002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461" data-listing-title-sort="Reference Management with Zotero: A Comprehensive Guide for Research Lab Members" data-listing-filename-sort="2024-08-15-zotero.qmd">
+<td>
+<a href="./posts/2024-08-15-zotero.html" class="title listing-title">Reference Management with Zotero: A Comprehensive Guide for Research Lab Members</a>
+</td>
+<td>
+<span class="listing-author">James Doss-Gollin</span>
+</td>
+<td>
+<span class="listing-date">August 15, 2024</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="for-undergrads,for-grad-students,for-postdocs,career-development" data-listing-date-sort="1719360000000" data-listing-file-modified-sort="1723731625002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481" data-listing-title-sort="A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications" data-listing-filename-sort="2024-06-26-lor.qmd">
+<td>
+<a href="./posts/2024-06-26-lor.html" class="title listing-title">A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications</a>
+</td>
+<td>
+<span class="listing-author">James Doss-Gollin</span>
+</td>
+<td>
+<span class="listing-date">June 26, 2024</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="collaboration,open-science,for-undergrads,for-grad-students,for-postdocs" data-listing-date-sort="1719360000000" data-listing-file-modified-sort="1723731625002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="399" data-listing-title-sort="Help Shape Our Lab: Contributing to the Lab Guide" data-listing-filename-sort="2024-06-26-contribute.qmd">
+<td>
+<a href="./posts/2024-06-26-contribute.html" class="title listing-title">Help Shape Our Lab: Contributing to the Lab Guide</a>
+</td>
+<td>
+<span class="listing-author">James Doss-Gollin</span>
+</td>
+<td>
+<span class="listing-date">June 26, 2024</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="for-undergrads,for-grad-students,for-postdocs" data-listing-date-sort="1719360000000" data-listing-file-modified-sort="1723731625002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="431" data-listing-title-sort="Welcome Aboard! Your Onboarding Guide" data-listing-filename-sort="2024-06-26-onboarding.qmd">
+<td>
+<a href="./posts/2024-06-26-onboarding.html" class="title listing-title">Welcome Aboard! Your Onboarding Guide</a>
+</td>
+<td>
+<span class="listing-author">James Doss-Gollin</span>
+</td>
+<td>
+<span class="listing-date">June 26, 2024</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="collaboration,publishing,for-undergrads,for-grad-students,for-postdocs" data-listing-date-sort="1719360000000" data-listing-file-modified-sort="1723731625002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="495" data-listing-title-sort="Navigating Authorship in Collaborative Research: A Practical Guide" data-listing-filename-sort="2024-06-26-authorship.qmd">
+<td>
+<a href="./posts/2024-06-26-authorship.html" class="title listing-title">Navigating Authorship in Collaborative Research: A Practical Guide</a>
+</td>
+<td>
+<span class="listing-author">James Doss-Gollin</span>
+</td>
+<td>
+<span class="listing-date">June 26, 2024</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -371,18 +428,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -414,7 +460,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dossgollin-lab\.github\.io\/lab-guide");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -449,7 +535,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -723,15 +813,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="../expectations/expectations.html" class="pagination-link" aria-label="Responsibilities">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Responsibilities</span>
+      <a href="./index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../guides/authorship.html" class="pagination-link" aria-label="Authorship">
-        <span class="nav-page-text">Authorship</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./expectations/harassment.html" class="pagination-link" aria-label="Harassment">
+        <span class="nav-page-text">Harassment</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -740,4 +830,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://www.github.com/dossgollin-lab/lab-guide/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://www.github.com/dossgollin-lab/lab-guide/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

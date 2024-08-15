@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Lab Guide</title>
+<link>https://dossgollin-lab.github.io/lab-guide/guides.html</link>
+<atom:link href="https://dossgollin-lab.github.io/lab-guide/guides.xml" rel="self" type="application/rss+xml"/>
+<description>Explore our collection of guides covering everything from authorship etiquette to open science practices. Find the information you need to thrive in our lab and beyond.</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Thu, 15 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Reference Management with Zotero: A Comprehensive Guide for Research Lab Members</title>
+  <dc:creator>James Doss-Gollin</dc:creator>
+  <link>https://dossgollin-lab.github.io/lab-guide/posts/2024-08-15-zotero.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Efficient management of references and literature is crucial. This post introduces Zotero, an open-source reference management tool that stands out for its versatility, extensibility, open-source commitments, and collaborative features. We’ll explore why Zotero is our lab’s preferred choice and how to set it up for optimal use within our research group.</p>
+<section id="why-zotero" class="level2">
+<h2 class="anchored" data-anchor-id="why-zotero">Why Zotero?</h2>
+<p>Zotero offers several key advantages that make it ideal for our lab:</p>
+<ol type="1">
+<li>It’s open-source, aligning with principles of accessibility and transparency in research.</li>
+<li>We have access to unlimited storage through Rice University’s Fondren Library.</li>
+<li>A wide range of plugins allows for customization to fit various research workflows.</li>
+<li>Built-in features for annotating PDFs and sharing annotations enhance collaborative research.</li>
+<li>Zotero integrates seamlessly with Google Docs, Microsoft Word, and LaTeX.</li>
+<li>Shared collections facilitate easy sharing of resources within our research group.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Lab Members</strong>: To access our shared resources, ask James to add you to the <code>dossgollin-lab</code> group in Zotero.</p>
+</div>
+</div>
+</section>
+<section id="setting-up-zotero" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-zotero">Setting Up Zotero</h2>
+<section id="essential-plugins" class="level3">
+<h3 class="anchored" data-anchor-id="essential-plugins">Essential Plugins</h3>
+<p>Zotero uses open-source plugins to extend its functionality. You can download them <a href="https://www.zotero.org/support/plugins">here</a>. The two most essential plugins for our lab are:</p>
+<ol type="1">
+<li><strong>Better BibTeX</strong>: Provides advanced BibTeX export options, crucial for LaTeX users.</li>
+<li><strong>Zotero Connectors</strong>: Browser extensions that streamline saving references from web pages.</li>
+</ol>
+<p>To install a plugin in Zotero, download its <code>.xpi</code> file to your computer. Then, in Zotero, click “Tools → Add-ons” and drag the <code>.xpi</code> onto the Add-ons window.</p>
+</section>
+<section id="configuring-better-bibtex" class="level3">
+<h3 class="anchored" data-anchor-id="configuring-better-bibtex">Configuring Better BibTeX</h3>
+<p>Follow these steps to ensure consistency across our lab’s citations:</p>
+<ol type="1">
+<li>Go to Zotero preferences, then to the Better BibTeX section.</li>
+<li>Under “Citation key format”, enter: <code>[auth:lower]_[ShortTitle:lower]:[year]</code></li>
+<li>Check the box to “Force citation key to ASCII”</li>
+<li>In the Export tab:
+<ul>
+<li>Enable “Export Unicode as plain-text LaTeX commands”</li>
+<li>Enable “Use BibLaTeX extended name format”</li>
+<li>Enable “Add JSTOR/Google Books/PubMed Central IDs to extra field”</li>
+<li>In “Fields to omit”, enter: <code>abstract,file,annotation,local-url,rating,read,uri,keywords</code></li>
+</ul></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you don’t have a Rice email yet, set up Zotero now and add your Rice email later for free unlimited storage.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="best-practices-for-lab-use" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices-for-lab-use">Best Practices for Lab Use</h2>
+<p>There are many “right” ways to set up Zotero. By following these guidelines, we can streamline our reference management process, enhance collaboration, and maintain consistency across our lab’s publications and projects.</p>
+<ol type="1">
+<li>Use the configured citation key format for all references.</li>
+<li>Sync your Zotero library regularly to maintain up-to-date shared collections.</li>
+<li>When annotating shared PDFs, consider using a consistent color scheme or tagging system.</li>
+<li>For LaTeX projects, the first author is responsible for generating the final <code>.bib</code> file from the shared Zotero collection.</li>
+<li>Each collaborative document (e.g., a paper or a research proposal) should get a separate Zotero collection, and we can add relevant references to the right collection.</li>
+</ol>
+</section>
+<section id="useful-refernces" class="level2">
+<h2 class="anchored" data-anchor-id="useful-refernces">Useful Refernces</h2>
+<ol type="1">
+<li>Fondren Library tutorial on <a href="https://fondrenlearning.blogs.rice.edu/zotero/">Zotero and Citation Management</a></li>
+<li>Mushtaq Bilal’s list of 15 Zotero tutorials (<a href="https://x.com/MushtaqBilalPhD/status/1611821066019827713">Twitter Post</a>)</li>
+<li><a href="https://keepwriting.beehiiv.com/p/getting-started-zotero-stepbystep-tutorial">Getting Started on Zotero: A Step-by-Step Tutorial</a> blog post</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>publishing</category>
+  <category>for-undergrads</category>
+  <category>for-grad-students</category>
+  <category>for-postdocs</category>
+  <guid>https://dossgollin-lab.github.io/lab-guide/posts/2024-08-15-zotero.html</guid>
+  <pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications</title>
+  <dc:creator>James Doss-Gollin</dc:creator>
+  <link>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-lor.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Letters of Recommendation (LORs) play a crucial role in our field, significantly impacting applications for graduate school, academic positions, and industry jobs. While writing these letters is primarily a PI responsibility <strong>and part of your PI’s job</strong>, there are several steps you can take to ensure you receive a strong and effective letter. This guide aims to demystify the process and provide you with practical advice for securing impactful letters of recommendation.</p>
+<section id="determining-when-to-request-a-letter" class="level2">
+<h2 class="anchored" data-anchor-id="determining-when-to-request-a-letter">Determining When to Request a Letter</h2>
+<p>As a general policy, I (James) will write a letter for any student or lab member who has worked in the lab for at least three months. This timeframe allows me to adequately evaluate your work and contributions. For shorter-term lab members, letters may be provided in exceptional circumstances, such as new graduate students or postdocs applying for fellowships.</p>
+<p>If you’ve only taken a class with me and haven’t worked in the lab, I may not be the strongest letter writer for you. In such cases, I can only speak to your performance in class. However, if you need a letter and don’t have better options, you’re welcome to ask.</p>
+</section>
+<section id="how-to-request-a-letter-of-recommendation" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-request-a-letter-of-recommendation">How to Request a Letter of Recommendation</h2>
+<p>To ensure a smooth process and a strong letter, please follow these guidelines:</p>
+<ol type="1">
+<li><p><strong>Provide ample notice</strong>: Request the letter at least three weeks before the deadline. More time is always appreciated.</p></li>
+<li><p><strong>Submit key information in a single email</strong>: Please don’t use Slack for this request. Include:</p>
+<ul>
+<li>The letter deadline</li>
+<li>Key points to focus on:
+<ul>
+<li>What you hope I will highlight about you</li>
+<li>How your application will be evaluated</li>
+<li>Why I am particularly well-suited to write your letter</li>
+</ul></li>
+<li>Any materials you’ve submitted as part of your application (draft materials are acceptable)</li>
+<li>Clear instructions on how to submit the letter</li>
+<li>A critical self-assessment: Discuss your strengths and areas for growth</li>
+</ul></li>
+<li><p><strong>Keep communication open</strong>: Provide updates as the deadline approaches.</p></li>
+</ol>
+</section>
+<section id="best-practices-for-securing-strong-letters" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices-for-securing-strong-letters">Best Practices for Securing Strong Letters</h2>
+<p>To maximize the effectiveness of your letters of recommendation, consider the following resources:</p>
+<ul>
+<li><p>Read Matt Might’s article on <a href="http://matt.might.net/articles/how-to-recommendation-letter/">“How to get a great letter of recommendation”</a>. It offers valuable insights into the process.</p></li>
+<li><p>Review this informative <a href="https://twitter.com/astroarianna/status/1582039372282486786">Twitter thread by Dr.&nbsp;Arianna Long</a>, which details how she improved her application success rate, with a focus on securing strong letters of recommendation.</p></li>
+</ul>
+<p>Remember, the strength of your letter of recommendation depends not only on my writing but also on the groundwork you lay in preparing your request and providing comprehensive information. By following these guidelines, you can significantly enhance the quality and impact of your letters of recommendation.</p>
+<p>If you have any questions about this process, please don’t hesitate to reach out. I’m here to support your academic and professional growth.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Note: Shout out to the <a href="http://peellelab.org/">Peelle Lab</a> at Washington University in Saint Louis for contributing some of the specific language used in this guide.</em></p>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>for-undergrads</category>
+  <category>for-grad-students</category>
+  <category>for-postdocs</category>
+  <category>career-development</category>
+  <guid>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-lor.html</guid>
+  <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Help Shape Our Lab: Contributing to the Lab Guide</title>
+  <dc:creator>James Doss-Gollin</dc:creator>
+  <link>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-contribute.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ever read through our lab guide and thought, “Hmm, I have an idea to make this even better”? Great news – we’re all ears! Our lab guide is a living document, and we believe that the best ideas come from collaboration. So, whether you’re a seasoned GitHub pro or new to the world of version control, we’ve got a way for you to contribute. Let’s walk through how you can help improve our lab guide.</p>
+<section id="the-easy-way-creating-an-issue" class="level2">
+<h2 class="anchored" data-anchor-id="the-easy-way-creating-an-issue">The Easy Way: Creating an Issue</h2>
+<p>Not comfortable diving into the code? No problem! Here’s how you can suggest improvements:</p>
+<ol type="1">
+<li>First things first, create an account on GitHub if you haven’t already. It’s free and takes just a minute.</li>
+<li>Head over to our <a href="https://github.com/dossgollin-lab/lab-guide/issues">lab guide repository</a> and click on the “Issues” tab.</li>
+<li>Click the green “New issue” button and describe the change you’d like to see.</li>
+<li>Hit submit and voila! You’ve just contributed to improving our lab guide.</li>
+</ol>
+<p>Don’t worry if your idea isn’t fully fleshed out. We can use the issue for further discussion and refine the concept together.</p>
+</section>
+<section id="the-git-savvy-way-making-the-change-yourself" class="level2">
+<h2 class="anchored" data-anchor-id="the-git-savvy-way-making-the-change-yourself">The Git-Savvy Way: Making the Change Yourself</h2>
+<p>Feeling a bit more adventurous? If you’re comfortable with git and GitHub, you can make the change yourself:</p>
+<ol type="1">
+<li>Start by forking the repository. This creates your own copy of the lab guide that you can modify.</li>
+<li>Clone the repository to your computer. This brings the files to your local machine.</li>
+<li>Fire up your favorite text editor (we’re fans of VS Code around here) and make the changes you’d like to see.</li>
+<li>Commit your changes and push them to your fork. This updates your personal copy on GitHub.</li>
+<li>Finally, create a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull request</a>. This is your way of saying, “Hey team, I’ve made some changes. What do you think?”</li>
+</ol>
+<p>We’ll review your pull request, potentially suggest some tweaks, and if all looks good, merge it into the main lab guide.</p>
+</section>
+<section id="why-your-contribution-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-your-contribution-matters">Why Your Contribution Matters</h2>
+<p>Every suggestion, no matter how small, helps make our lab guide more comprehensive, clear, and useful. Your unique perspective could be just what we need to improve our processes or clarify a confusing section.</p>
+<p>Plus, contributing to the lab guide is a great way to familiarize yourself with GitHub – a skill that’s increasingly valuable in the world of collaborative research.</p>
+<p>So, what are you waiting for? Dive in and help us make our lab guide the best it can be. Your future self (and your labmates) will thank you!</p>
+<p>Got questions about the process? Don’t hesitate to reach out.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>collaboration</category>
+  <category>open-science</category>
+  <category>for-undergrads</category>
+  <category>for-grad-students</category>
+  <category>for-postdocs</category>
+  <guid>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-contribute.html</guid>
+  <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome Aboard! Your Onboarding Guide</title>
+  <dc:creator>James Doss-Gollin</dc:creator>
+  <link>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-onboarding.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome to the team! We’re thrilled to have you join our lab. To help you get started on the right foot, we’ve put together this onboarding guide. Let’s walk through the steps together to ensure you have everything you need for a successful start.</p>
+<section id="step-1-dive-into-the-lab-guide" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-dive-into-the-lab-guide">Step 1: Dive into the Lab Guide</h2>
+<p>Your first task is to familiarize yourself with our lab guide. This document is your go-to resource for understanding our lab’s culture, expectations, and resources.</p>
+<ul>
+<li>Read through the lab guide carefully.</li>
+<li>Schedule a meeting with James to discuss any questions or suggestions you might have.</li>
+<li>This conversation is also a great opportunity to clarify expectations and explore the resources available to you.</li>
+</ul>
+<p>Remember, the lab guide is a living document. Your fresh perspective might bring valuable insights, so don’t hesitate to share your thoughts!</p>
+</section>
+<section id="step-2-set-up-your-workspace" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-set-up-your-workspace">Step 2: Set Up Your Workspace</h2>
+<p>Getting your work environment right is crucial for productivity and comfort. Here’s what you need to know:</p>
+<ul>
+<li>You don’t need to spend your own money on equipment or supplies.</li>
+<li>If you need anything for your computer or workspace, just let James know.</li>
+<li>We want to ensure you have all the tools necessary to do your best work.</li>
+</ul>
+</section>
+<section id="step-3-get-connected" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-get-connected">Step 3: Get Connected</h2>
+<p>Now it’s time to plug you into our digital ecosystem. We’ll get you added to:</p>
+<ol type="1">
+<li>Our GitHub organization for sharing and collaborating on code.</li>
+<li>Slack for quick chats and project discussions.</li>
+<li>Zotero for sharing scientific papers and references.</li>
+<li>Our Google Drive folder for document collaboration.</li>
+</ol>
+<p>These platforms will keep you connected with the team and our ongoing projects. If you’re not familiar with any of these tools, don’t worry – we’re here to help you get up to speed.</p>
+</section>
+<section id="step-4-join-the-group-website" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-join-the-group-website">Step 4: Join the Group Website</h2>
+<p>Last but not least, it’s time to make your presence official on our group website! Here’s how:</p>
+<ol type="1">
+<li>Add a square photo of yourself to the <code>assets/images/people/</code> directory.</li>
+<li>Create an entry in the <code>people/</code> directory with your bio and other relevant information.</li>
+<li>Submit these changes via a Pull Request on GitHub.</li>
+</ol>
+<p>New to Pull Requests? No problem at all! As we like to say, “You’re not born knowing.” This is a great opportunity to learn, so don’t hesitate to ask for help. We’re all here to support each other’s growth and learning.</p>
+</section>
+<section id="youre-all-set" class="level2">
+<h2 class="anchored" data-anchor-id="youre-all-set">You’re All Set!</h2>
+<p>Congratulations on completing your onboarding steps! You’re now officially part of the team. Remember, questions are always welcome, and we’re all here to support each other.</p>
+<p>We’re excited to see the unique perspectives and skills you’ll bring to our lab. Welcome aboard, and here’s to a fantastic journey ahead!</p>
+<p>Got any questions about these steps or anything else? Don’t hesitate to reach out to James or any of your lab mates. We’re all here to help ensure your smooth transition into our research community.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>for-undergrads</category>
+  <category>for-grad-students</category>
+  <category>for-postdocs</category>
+  <guid>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-onboarding.html</guid>
+  <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Navigating Authorship in Collaborative Research: A Practical Guide</title>
+  <dc:creator>James Doss-Gollin</dc:creator>
+  <link>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-authorship.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>You know that publishing is critical to your success as a researcher, but have you ever found yourself in an awkward conversation about authorship? Picture this: you share ideas with a colleague, jump on Zoom calls to discuss their paper with them, share some code snippets to help them out, and then… you see the paper published with your name in the acknowledgements rather than on the author list where you expected it to be.</p>
+<p>Deciding how authorship is allocated can be tricky, and when done poorly, it can create conflicts that undermine the very collaboration that produced the research. We want to avoid that! This guide aims to provide you with practical advice on handling this crucial topic effectively, ensuring your research collaborations remain productive and harmonious.</p>
+<section id="the-importance-of-early-discussions" class="level2">
+<h2 class="anchored" data-anchor-id="the-importance-of-early-discussions">The Importance of Early Discussions</h2>
+<p>In collaborative research, it’s essential to discuss authorship early and often. As the Principal Investigator, James is responsible for initiating these conversations. This becomes even more critical when collaborating with colleagues from other labs, especially those in different fields where authorship norms may vary. Clear and frequent communication about authorship is key to avoiding misunderstandings and potential conflicts.</p>
+</section>
+<section id="general-guidelines-for-authorship" class="level2">
+<h2 class="anchored" data-anchor-id="general-guidelines-for-authorship">General Guidelines for Authorship</h2>
+<p>The American Geophysical Union (AGU) provides excellent <a href="https://www.agu.org/publications/authors/policies">guidelines for authorship</a> that are applicable across many scientific fields. Here’s a summary of their recommendations:</p>
+<ol type="1">
+<li><strong>Accuracy and Objectivity</strong>: Present your research precisely and discuss its significance objectively.</li>
+<li><strong>Reproducibility</strong>: Include sufficient detail for peers to replicate your work. Be transparent about any limitations on data access.</li>
+<li><strong>Proper Citation</strong>: Identify and cite influential sources and primary work essential to understanding your research.</li>
+<li><strong>Thorough Documentation</strong>: Clearly document your methodology, assumptions, and uncertainties.</li>
+<li><strong>Ethical Compliance</strong>: Follow appropriate procedures for work with human or animal subjects.</li>
+<li><strong>Avoid Plagiarism</strong>: Always provide appropriate citation for others’ work and your own previous work.</li>
+<li><strong>Focused Publication</strong>: Avoid unnecessary fragmentation of research reports.</li>
+<li><strong>Professionalism</strong>: Refrain from personal criticism in written work.</li>
+<li><strong>Transparency</strong>: Report any post-acceptance changes to the editor.</li>
+<li><strong>Appropriate Co-authorship</strong>: Include only those who made significant scientific contributions and determine authorship order appropriately.</li>
+<li><strong>Conflict of Interest Disclosure</strong>: Reveal any potential conflicts of interest to the editor.</li>
+<li><strong>Acknowledgment of Support</strong>: List all funding sources and other support in the acknowledgments.</li>
+<li><strong>Co-author Communication</strong>: As the corresponding author, keep all co-authors informed about manuscript changes during peer review.</li>
+</ol>
+<p>While these guidelines are mandatory for AGU journal submissions, they serve as excellent best practices for any scientific publication.</p>
+</section>
+<section id="introducing-the-paper-contract" class="level2">
+<h2 class="anchored" data-anchor-id="introducing-the-paper-contract">Introducing the Paper Contract</h2>
+<p>To facilitate discussions about authorship, contribution, and research design, we recommend creating a “Paper Contract” early in the research process. This document outlines:</p>
+<ul>
+<li>Research questions</li>
+<li>Hypotheses</li>
+<li>Broad methodology</li>
+<li>Author line</li>
+<li>Submission plan</li>
+<li>Author contributions</li>
+</ul>
+<p>This approach helps ensure all team members are aligned from the outset of the project.</p>
+<p>Remember, addressing authorship proactively isn’t just about avoiding conflicts—it’s about fostering a collaborative environment where everyone’s contributions are recognized appropriately. By following these guidelines and using tools like the Paper Contract, you can focus more of your energy on conducting high-quality research.</p>
+<p>If you have any questions or need further clarification on these topics, please don’t hesitate to reach out. Here’s to productive collaborations and impactful research!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>collaboration</category>
+  <category>publishing</category>
+  <category>for-undergrads</category>
+  <category>for-grad-students</category>
+  <category>for-postdocs</category>
+  <guid>https://dossgollin-lab.github.io/lab-guide/posts/2024-06-26-authorship.html</guid>
+  <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
