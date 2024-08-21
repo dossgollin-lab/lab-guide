@@ -63,129 +63,106 @@
     "text": "Useful Refernces\n\nFondren Library tutorial on Zotero and Citation Management\nMushtaq Bilal’s list of 15 Zotero tutorials (Twitter Post)\nGetting Started on Zotero: A Step-by-Step Tutorial blog post"
   },
   {
-    "objectID": "posts/2024-06-26-lor.html",
-    "href": "posts/2024-06-26-lor.html",
-    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
+    "objectID": "posts/2024-08-21-add-yourself.html",
+    "href": "posts/2024-08-21-add-yourself.html",
+    "title": "How to Add Yourself to the Lab Website",
     "section": "",
-    "text": "Letters of Recommendation (LORs) play a crucial role in our field, significantly impacting applications for graduate school, academic positions, and industry jobs. While writing these letters is primarily a PI responsibility and part of your PI’s job, there are several steps you can take to ensure you receive a strong and effective letter. This guide aims to demystify the process and provide you with practical advice for securing impactful letters of recommendation."
+    "text": "This guide walks you through the process of adding your profile to our lab website at https://dossgollin-lab.github.io/."
   },
   {
-    "objectID": "posts/2024-06-26-lor.html#determining-when-to-request-a-letter",
-    "href": "posts/2024-06-26-lor.html#determining-when-to-request-a-letter",
-    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
-    "section": "Determining When to Request a Letter",
-    "text": "Determining When to Request a Letter\nAs a general policy, I (James) will write a letter for any student or lab member who has worked in the lab for at least three months. This timeframe allows me to adequately evaluate your work and contributions. For shorter-term lab members, letters may be provided in exceptional circumstances, such as new graduate students or postdocs applying for fellowships.\nIf you’ve only taken a class with me and haven’t worked in the lab, I may not be the strongest letter writer for you. In such cases, I can only speak to your performance in class. However, if you need a letter and don’t have better options, you’re welcome to ask."
+    "objectID": "posts/2024-08-21-add-yourself.html#understanding-the-tools",
+    "href": "posts/2024-08-21-add-yourself.html#understanding-the-tools",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Understanding the Tools",
+    "text": "Understanding the Tools\nBefore we begin, let’s briefly explain the key tools we’ll be using:\n\nGit: A version control system that tracks changes in your code.\nGitHub: A web-based platform that hosts Git repositories and facilitates collaboration. We’ll use GitHub’s fork and pull request workflow. For a detailed guide on forking with GitHub, see GitHub’s Forking Guide.\nQuarto: An open-source scientific and technical publishing system built on Pandoc. See the Quarto documentation for more information.\nCode Editor: While you can use any text editor, we recommend Visual Studio Code (VS Code) for its integrated terminal and extensions support."
   },
   {
-    "objectID": "posts/2024-06-26-lor.html#how-to-request-a-letter-of-recommendation",
-    "href": "posts/2024-06-26-lor.html#how-to-request-a-letter-of-recommendation",
-    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
-    "section": "How to Request a Letter of Recommendation",
-    "text": "How to Request a Letter of Recommendation\nTo ensure a smooth process and a strong letter, please follow these guidelines:\n\nProvide ample notice: Request the letter at least three weeks before the deadline. More time is always appreciated.\nSubmit key information in a single email: Please don’t use Slack for this request. Include:\n\nThe letter deadline\nKey points to focus on:\n\nWhat you hope I will highlight about you\nHow your application will be evaluated\nWhy I am particularly well-suited to write your letter\n\nAny materials you’ve submitted as part of your application (draft materials are acceptable)\nClear instructions on how to submit the letter\nA critical self-assessment: Discuss your strengths and areas for growth\n\nKeep communication open: Provide updates as the deadline approaches."
+    "objectID": "posts/2024-08-21-add-yourself.html#prerequisites",
+    "href": "posts/2024-08-21-add-yourself.html#prerequisites",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nCreate a GitHub account if you don’t have one.\nInstall Git (you proably already have it on your computer). You may also want a GUI client like GitHub Desktop.\nInstall Quarto.\nInstall a code editor (I recommend Visual Studio Code).\nHave a command line interface available (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows). On Mac, if you’ve never done this before, you may need to install Command Line Tools by running xcode-select --install."
   },
   {
-    "objectID": "posts/2024-06-26-lor.html#best-practices-for-securing-strong-letters",
-    "href": "posts/2024-06-26-lor.html#best-practices-for-securing-strong-letters",
-    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
-    "section": "Best Practices for Securing Strong Letters",
-    "text": "Best Practices for Securing Strong Letters\nTo maximize the effectiveness of your letters of recommendation, consider the following resources:\n\nRead Matt Might’s article on “How to get a great letter of recommendation”. It offers valuable insights into the process.\nReview this informative Twitter thread by Dr. Arianna Long, which details how she improved her application success rate, with a focus on securing strong letters of recommendation.\n\nRemember, the strength of your letter of recommendation depends not only on my writing but also on the groundwork you lay in preparing your request and providing comprehensive information. By following these guidelines, you can significantly enhance the quality and impact of your letters of recommendation.\nIf you have any questions about this process, please don’t hesitate to reach out. I’m here to support your academic and professional growth.\n\n\n\n\n\n\nTip\n\n\n\nNote: Shout out to the Peelle Lab at Washington University in Saint Louis for contributing some of the specific language used in this guide."
+    "objectID": "posts/2024-08-21-add-yourself.html#steps-to-add-your-profile",
+    "href": "posts/2024-08-21-add-yourself.html#steps-to-add-your-profile",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Steps to Add Your Profile",
+    "text": "Steps to Add Your Profile\n\n1. Fork the Repository\nForking creates a copy of the lab website repository under your GitHub account, allowing you to make changes without affecting the original project.\n\nGo to the lab website repository on GitHub.\nClick the “Fork” button in the top-right corner.\nSelect your personal account as the destination for the fork.\n\n\n\n2. Clone Your Forked Repository\nCloning downloads the forked repository to your local machine, allowing you to make changes locally.\n\nOn your forked repository page, click the green “Code” button.\nCopy the HTTPS URL provided.\nOpen your terminal and navigate to where you want to store the project.\nRun the following command, replacing &lt;URL&gt; with the copied URL:\ngit clone &lt;URL&gt;\n\n\n\n3. Set Up the Project\nNext, you want to open the project in your text editor so you can make changes.\n\nNavigate into the cloned directory:\ncd dossgollin-lab.github.io\nInitialize and update the submodules:\ngit submodule update --init --recursive\nOpen the folder in VS Code:\ncode .\nInstall the Quarto extension for VS Code:\n\nGo to the Extensions view (Ctrl+Shift+X).\nSearch for “Quarto”.\nClick “Install” on the Quarto extension."
   },
   {
-    "objectID": "expectations/expectations.html",
-    "href": "expectations/expectations.html",
-    "title": "Core Expectations",
+    "objectID": "posts/2024-08-21-add-yourself.html#previewing-the-website",
+    "href": "posts/2024-08-21-add-yourself.html#previewing-the-website",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Previewing the Website",
+    "text": "Previewing the Website\n\nIn the terminal within VS Code, ensure you’re in the project root directory.\nRun the following command:\nquarto preview .\nThis will open a preview of the website in your default browser."
+  },
+  {
+    "objectID": "posts/2024-08-21-add-yourself.html#creating-your-profile",
+    "href": "posts/2024-08-21-add-yourself.html#creating-your-profile",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Creating Your Profile",
+    "text": "Creating Your Profile\n\nIn VS Code, navigate to the appropriate subfolder within the people folder (e.g., people/grad-students).\nCreate a new Markdown file with your name (e.g., john-doe.md).\nUse one of the existing profiles as a template.\nFill in your details, following this structure:\n\n---\ntitle: \"Your Full Name\"\nsortby: \"Last Name, First Name\"\nposition: \"Your Position\" # Optional, for faculty/staff\ncoadvised: \"Coadvised with [Name]\" # Optional\nstarted: \"Season Year\" # eg Fall 2024\nended: \"Current\" # Or end date if applicable\ntoc: false\nabout:\n    id: person-profile\n    image: \"../../_assets/img/people/your-image-file.jpg\"\n    template: trestles # Choose from options below\n    links:\n        - icon: envelope\n          text: Email\n          href: mailto:your.email@rice.edu\n        - icon: github\n          text: Github\n          href: https://github.com/yourusername\n        # Add more links if you would like -- see other profiles for examples\nformat: \n  html:\n    page-layout: full\n---\n\n:::{#person-profile}\n## Bio\n\nWrite your bio here.\nKeep each sentence on a separate line.\n\n## Education\n- **University Name** | Location&lt;br /&gt;Degree, Year\n- **Another University** | Location&lt;br /&gt;Another Degree, Year\n:::\n\nFor the template field, choose from: trestles, jolla, solana, marquee, or broadside. You can preview these options at Quarto Website About Pages.\nAdd a square image of yourself to _assets/img/people/. Update the image field in your profile to match the filename.\nSave your changes and check the preview:\n\nIf the preview doesn’t update automatically, stop the preview process (Ctrl+C in the terminal) and run quarto preview . again.\nMake sure your profile looks good and all information is correct."
+  },
+  {
+    "objectID": "posts/2024-08-21-add-yourself.html#submitting-your-changes",
+    "href": "posts/2024-08-21-add-yourself.html#submitting-your-changes",
+    "title": "How to Add Yourself to the Lab Website",
+    "section": "Submitting Your Changes",
+    "text": "Submitting Your Changes\n\nStage your changes using git (you can use VS Code, the GitHub Desktop app, or the command line):\nCommit your changes with a clear commit message (e.g., “Add John Doe to grad students”).\nPush the changes to your forked repository:\nGo to your forked repository on GitHub’s website.\nClick “Contribute” then “Open pull request”.\nAdd any necessary comments and create the pull request.\n\nOnce your pull request is reviewed and merged, your profile will appear on the lab website. You can now delete your fork."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to our Lab Guide",
     "section": "",
-    "text": "This document outlines the responsibilities and expectations for everyone in the group. It is a living document and will be updated as the group evolves.",
+    "text": "Welcome to the lab guide for the Doss-Gollin lab in the Department of Civil and Environmental Engineering at Rice University. If you’re looking for our group’s homepage, please find it here.\nThis document codifies lab practices and expectations for new and existing group members and is divided into three main sections:\n\nLab Expectations clarifies the expectations we have for ourselves and for one another.\nLab How-To Guides provides critical resources in the format of blog posts.\nJoin Us guides prospective group members through the process of joining.\n\n\n\n\n\n\n\nContribute\n\n\n\nThis is intended to be a living document and remains a work in progress. Lab and community members are strongly encouraged to contribute to this document! See here for instructions.\n\n\n\nCore values\n\nCreativity. As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.\nEquity. We recognize the burdens of systemic inequality and seek to promote fairness and justice.\nExcellence. We strive for excellence in all our activities and aim to be role models in all that we do. We seek to do what is right, not what is easy, and acknowledge when we fall short.\nHumility. We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.\nOpen Science. Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them.\n\n\n\n\n\n\n\nCredit\n\n\n\nThe organization and framing of this document borrows heavily from lab guides written by Lab Carpentry, the Advanced Reactors and Fuel Cycles group at UIUC, the Andersen Lab at Northwestern, the Computer-Oriented Geoscience Lab at University of Liverpool, the Ocean Transport Group at the Lamont-Doherty Earth Observatory, the Aly lab at Columbia, the Srikrishnan Lab at Cornell, and the Keller Lab Group at Dartmouth. We thank Jordy Padilla and Yash Amonkar for constructive suggestions.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "expectations/harassment.html",
+    "href": "expectations/harassment.html",
+    "title": "Harassment Policy",
+    "section": "",
+    "text": "This policy represents our commitment to building an inclusive, diverse, and equitable environment. We celebrate the diverse experiences, perspectives, and backgrounds of our group members, colleagues, and broader community, recognizing that this diversity strengthens our research, fosters innovation, and enhances our collective growth. All members of the research group must abide by and collectively enforce these guidelines.",
     "crumbs": [
       "Expectations",
-      "Core Expectations"
+      "Harassment"
     ]
   },
   {
-    "objectID": "expectations/expectations.html#everyone",
-    "href": "expectations/expectations.html#everyone",
-    "title": "Core Expectations",
-    "section": "Everyone",
-    "text": "Everyone\n\nEnvironment: Foster a supportive team environment committed to mutual learning and success. Support and help your labmates. Read and follow lab guidelines, suggesting improvements when you see opportunities. Take initiative in your work and in advancing the lab’s mission.\nWorkload: Treat your research as a full-time job, aiming for an average of 40 hours per week. This approach ensures consistent progress while allowing you to benefit from the flexibility academic research offers.\nPresence: Be an active participant in the lab. Attend and contribute to group meetings and seminars, taking turns to lead discussions. Be present in the lab during agreed times and respect shared spaces.\nManage Up: You are responsible for managing your relationship with your advisor(s). Schedule and lead regular 1:1 meetings, preparing agendas and following up on action items. Communicate your needs, goals, and challenges clearly. Seek feedback proactively, propose solutions rather than just problems, and provide respectful feedback on your working relationship.\n\n\nOpen Science\nOpen science is the idea that scientific research should be transparent and accessible to everyone, especially including the taxpaying public that funds a substantial portion of our research. Open science is about democratizing knowledge and accelerating scientific progress to address urgent challenges like climate change, flooding, and poverty. Some key concepts of open science are:\n\nReproducibility: This means obtaining consistent computational results using the same input data, methods, code, and conditions of analysis.\nReplicability: This involves obtaining consistent results across different studies aimed at answering the same scientific question, each with its own data.\nAccessibility: Making research findings, data, and methods available to all levels of society, both amateur and professional.\n\nImplementing this takes skills, and it’s James’s responsibility to provide training and resources to help you develop them, but committing to these principles is everyone’s responsibility. For example:\n\nWe make our data, code, and computational environments publicly available, typically no later than the publication of our work.\nWe prioritize using fully open-source tools whenever possible. When proprietary software or data is necessary, we document its use clearly and provide alternatives where possible.\nWe publish in open-access journals where appropriate and make post-prints freely available when not. We also share preprints on open-access servers.\nWe summarize our findings in non-technical blog posts, translate papers as needed, and use social media to share key findings.\nWe use permissive open-source licenses for our code, respecting and complying with licensing terms.\nWe employ various tools to facilitate reproducible science, including Python, Julia, Git, GitHub, Snakemake, Zenodo, and more.\n\n\n\nHealth and Well-being\nAcademia can be stressful, and it’s important to take care of yourself. Here are some tips:\n\nMaintain a healthy sleep schedule.\nPursue interests and hobbies outside of work to relieve stress and stimulate creative thought.\nDevelop a support network among your peers who understand the challenges.\nUse mental health resources when needed. Seeking help is a worthy investment in yourself.\nStay home when sick to protect your health and that of others.\nTake advantage of Rice’s mental health resources:\n\nWellbeing and Counseling Center\nCounseling Center",
+    "objectID": "expectations/harassment.html#the-quick-version",
+    "href": "expectations/harassment.html#the-quick-version",
+    "title": "Harassment Policy",
+    "section": "The quick version",
+    "text": "The quick version\nOur research group is dedicated to providing a harassment-free experience for everyone, regardless of personal characteristics or background. We do not tolerate harassment in any form. Professional conduct is expected in all settings, including online interactions. Violations may result in sanctions or expulsion from the group.",
     "crumbs": [
       "Expectations",
-      "Core Expectations"
+      "Harassment"
     ]
   },
   {
-    "objectID": "expectations/expectations.html#specific-responsibilities",
-    "href": "expectations/expectations.html#specific-responsibilities",
-    "title": "Core Expectations",
-    "section": "Specific Responsibilities",
-    "text": "Specific Responsibilities\nWe all have different roles and responsibilities in the lab. Here are some guidelines based on your role.\n\nPI (James)\n\nEnvironment: Manage the lab’s social dynamic to create a welcoming, inclusive, and productive atmosphere that brings out the best in everyone and celebrates diverse perspectives.\nDefine Research Directions: Identify socially relevant and scientifically novel research questions, leveraging field awareness, creativity, and insight.\nProvide Technical Leadership: Establish a software and hardware environment that maximizes productivity for all team members.\nScientific Mentoring: Guide junior members in developing into independent scientists through regular meetings, feedback, and strategic planning.\nManage Publication Process: Assist in identifying publishable results, selecting appropriate journals, and navigating the revision process.\nSecure Funding: Obtain grant funding to support the group’s research and ensure coverage of all research-related expenses.\nAcademic Service: Fulfill departmental duties, teach courses, and participate in professional organizations. Serve on student committees and review papers and proposals.\nProvide Comprehensive Feedback: Offer guidance on all aspects of research, from hypothesis formation to data management and paper writing.\nOffer Support: Provide moral support, career advice, and recommendation letters to help members navigate the challenges of research and academic life.\nProject Management: Help structure projects with clear goals, milestones, and timelines, balancing guidance with fostering independence.\n\n\n\nGraduate Students\n\nApply for External Funding: This is required and provides valuable experience. We maintain a list of opportunities.\nBe Professional and Organized: Develop a system for managing responsibilities, coursework, and research.\nDevelop Independence: Pursue your own ideas, attend diverse talks, read widely, and take initiative in your research.\nFocus on Research: Prioritize research over other duties, approaching it with full-time job seriousness.\nStay in Good Standing: Understand and fulfill all graduate school and department requirements and deadlines.\nCareer Planning: Reflect on your career goals and work with James to get necessary training and exposure.\nBalance Independence and Guidance: Learn to strike a balance between working independently and seeking help when needed. Don’t hesitate to ask for assistance, but always come prepared with your thoughts and potential solutions.\nProfessional Development: Take charge of your own professional development. Seek out opportunities for skill-building, networking, and career exploration beyond what’s directly offered in the lab.\n\nRemember, your graduate education is ultimately your responsibility. While James is here to provide guidance and support, you are in charge of your own success and development as a researcher.\n\n\nUndergraduates\n\nLearn a lot\nKeep track of and fulfill all college requirements\nWork on average 10hrs per week (unless otherwise discussed)\nTrack time spent working honestly and accurately\nSubmit weekly written reports and/or slides to James\nAttend lab meetings when consistent with your schedule\nBe helpful, friendly, and open to new ideas",
+    "objectID": "expectations/harassment.html#the-less-quick-version",
+    "href": "expectations/harassment.html#the-less-quick-version",
+    "title": "Harassment Policy",
+    "section": "The less quick version",
+    "text": "The less quick version\nAll Rice employees and students must understand and comply with the University’s policies and procedures regarding harassment and discrimination, including but not limited to the Policy on Harassment and Sexual Misconduct and the Prohibited Behaviors. Our group adopts additional guidelines.\nHarassment includes, but is not limited to:\n\nOffensive comments related to personal characteristics\nUnwelcome sexual attention or imagery\nIntimidation or stalking\nDisruption of the research environment\nInappropriate physical contact\n\nIf you experience or witness harassment, please contact James Doss-Gollin immediately. James can assist with security, law enforcement, or official University reporting channels. Please note that James is a mandatory reporter as defined in University Policy. For concerns about James, or if you prefer he not be involved, contact the Office for Interpersonal Misconduct Prevention and Support, Office of Diversity and Inclusion, or Title IX Office.\nWe expect professional, respectful behavior in all work-related settings, including conferences and social events.",
     "crumbs": [
       "Expectations",
-      "Core Expectations"
+      "Harassment"
     ]
   },
   {
-    "objectID": "joinus/undergrad.html",
-    "href": "joinus/undergrad.html",
-    "title": "Undergraduate Research",
-    "section": "",
-    "text": "!!! info “Credit” Specific language on this page comes from the MemoLab at Boston College.",
+    "objectID": "expectations/harassment.html#additional-notes",
+    "href": "expectations/harassment.html#additional-notes",
+    "title": "Harassment Policy",
+    "section": "Additional Notes",
+    "text": "Additional Notes\n\nCultural sensitivity: We recognize that cultural norms vary, but within our group, these standards apply to all members regardless of background. We actively encourage open dialogue, seek opportunities to learn from one another, and strive to create an environment where all members feel welcomed, respected, and supported.\nTaking concerns seriously: If someone asks you to stop a behavior that is bothering them, take their request seriously and stop the behavior immediately, even if you don’t understand why it’s problematic.\nRegular review: This policy will be reviewed annually to ensure its effectiveness and relevance.\n\nBy joining this research group, you agree to uphold these standards and contribute to a harassment-free environment that values and celebrates the diversity within our community.",
     "crumbs": [
-      "Join Us",
-      "Undergraduate Reserach"
-    ]
-  },
-  {
-    "objectID": "joinus/undergrad.html#openings-and-applying",
-    "href": "joinus/undergrad.html#openings-and-applying",
-    "title": "Undergraduate Research",
-    "section": "Openings and Applying",
-    "text": "Openings and Applying\nThere are three main ways to do research as an undergraduate:\n\nFor credit\nAs a senior thesis\nFor pay\n\nPlease see the lab website’s “Join Us” page for advertised positions, although you’re always welcome to reach out if you have a specific idea (see below). Specific positions for pay may be also advertised as announcements on the lab website.\n\nResearch for Credit\nIf you want to work in lab and earn course credit, you can sign up for undergraduate research (discuss CEVE 499 with a program administrator or adviser). We will have to fill out a syllabus contract at the beginning of the semester. Typically you would be in lab for at least 10 hours a week, and you would also be required to attend lab meetings, read a few papers, and complete a few short written assignments. You can enroll in undergraduate research multiple times, subject to the requirements of the University and your degree.\nTo Apply: send me an email from your Rice University account:\n\nPut “CEVE 499: Research for Credit” in the subject line of the email,\nAttach your CV or resume (short is fine, undergrads don’t need a 5 page CV!) as a .pdf file\nAttach a 1-2 page project proposal. The more detailed, the better (see below) as a .pdf file\nSuggest some times when you might be available to talk further in the body of the email.\n\n\n\nSenior Thesis Supervision\nIf you are interested in having me supervise your senior thesis project, I recommend doing research for credit course during your sophomore or junior year. However, this is not a strict requirement (especially in 2021 since I’m new here!!)\nTo Apply: as above (to do research for credit) but put “Senior Thesis Supervision” in the subject line of the email.\n\n\nResearch for Pay\nIf you want to work in lab and earn money, there are two different options. The lab can pay you as a research assistant, typically 5-10 hours per week at $12 per hour or as discussed. We have a limited number of hours available each semester, so these positions are competitive. Open positions may be posted on our lab website, but if you have concrete ideas you can propose a project (see below).\nWe can apply for an undergraduate research fellowship to fund your time in lab. Because these fellowships are intended to support your academic development, undergraduate fellows will be required to participate in lab meetings. This option is also available during the summer.\nTo Apply: as above (to do research for credit) but put “Research for Pay” in the subject line of the email.\n\n\nVolunteer Research\nUnpaid internships give an unfair advantage to those who can afford to volunteer their time and contribute to unequal representation in the field. We do not take unpaid volunteers as research assistants in our lab, except for academic credit.",
-    "crumbs": [
-      "Join Us",
-      "Undergraduate Reserach"
-    ]
-  },
-  {
-    "objectID": "joinus/undergrad.html#how-to",
-    "href": "joinus/undergrad.html#how-to",
-    "title": "Undergraduate Research",
-    "section": "How To",
-    "text": "How To\n\nWrite a Project Proposal\nA project proposal is a first draft of a semester research plan that we will craft together. This document will lay out research questions, research goals, research milestones and timelines, the tools you will need to carry out the research, and the mentoring and guidance you will need. As you write the first draft, your main goal is to convince me that you’ve thought about what research you want to do, that this research serves some intellectual or career goals that you have, that you have most of the skills you will need to do it, and that it’s something that I would be well suited to supervise. Some things that I’m looking for when reading a project proposal are:\n\nIs the research feasible? (Do you have the skills needed? Do I have the resources needed?)\nIs the research interesting? Do you have a sense of previous work in this area? Are there social, policy, or technical implications?\nAre you going to be motivated? Does this advance real goals that you have?\nAm I the right mentor for this work? Do I have the skills and resources needed to support you?\nDoes this research advance my goals?1",
-    "crumbs": [
-      "Join Us",
-      "Undergraduate Reserach"
-    ]
-  },
-  {
-    "objectID": "joinus/undergrad.html#faq",
-    "href": "joinus/undergrad.html#faq",
-    "title": "Undergraduate Research",
-    "section": "FAQ",
-    "text": "FAQ\nIf you email me with a question, I may ask your permission to post that question and answer (with anonymity) on this section. This can help future prospective students.",
-    "crumbs": [
-      "Join Us",
-      "Undergraduate Reserach"
-    ]
-  },
-  {
-    "objectID": "joinus/undergrad.html#footnotes",
-    "href": "joinus/undergrad.html#footnotes",
-    "title": "Undergraduate Research",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis one is a bit trickier, since you don’t necessarily know my goals! However, if your research is tied to projects I’m working on or have worked on in the past, or if it’s related to something we’ve talked about in the past, there’s a good chance that it advances my goals. Don’t get too stressed about this part.↩︎",
-    "crumbs": [
-      "Join Us",
-      "Undergraduate Reserach"
-    ]
-  },
-  {
-    "objectID": "guides.html",
-    "href": "guides.html",
-    "title": "Lab How-To Guides",
-    "section": "",
-    "text": "Welcome to our lab’s resource hub! Here you’ll find a collection of guides to help you navigate your research journey. Whether you’re a new member or a seasoned researcher, these resources are designed to support your work and uphold our lab’s values.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\nReference Management with Zotero: A Comprehensive Guide for Research Lab Members\n\n\nJames Doss-Gollin\n\n\nAugust 15, 2024\n\n\n\n\nA Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nHelp Shape Our Lab: Contributing to the Lab Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nWelcome Aboard! Your Onboarding Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nNavigating Authorship in Collaborative Research: A Practical Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Lab How-To Guides"
+      "Expectations",
+      "Harassment"
     ]
   },
   {
@@ -244,58 +221,130 @@
     ]
   },
   {
-    "objectID": "expectations/harassment.html",
-    "href": "expectations/harassment.html",
-    "title": "Harassment Policy",
+    "objectID": "guides.html",
+    "href": "guides.html",
+    "title": "Lab How-To Guides",
     "section": "",
-    "text": "This policy represents our commitment to building an inclusive, diverse, and equitable environment. We celebrate the diverse experiences, perspectives, and backgrounds of our group members, colleagues, and broader community, recognizing that this diversity strengthens our research, fosters innovation, and enhances our collective growth. All members of the research group must abide by and collectively enforce these guidelines.",
+    "text": "Welcome to our lab’s resource hub! Here you’ll find a collection of guides to help you navigate your research journey. Whether you’re a new member or a seasoned researcher, these resources are designed to support your work and uphold our lab’s values.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\nDate\n\n\n\n\n\n\nHow to Add Yourself to the Lab Website\n\n\nJames Doss-Gollin\n\n\nAugust 21, 2024\n\n\n\n\nReference Management with Zotero: A Comprehensive Guide for Research Lab Members\n\n\nJames Doss-Gollin\n\n\nAugust 15, 2024\n\n\n\n\nA Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nHelp Shape Our Lab: Contributing to the Lab Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nWelcome Aboard! Your Onboarding Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\nNavigating Authorship in Collaborative Research: A Practical Guide\n\n\nJames Doss-Gollin\n\n\nJune 26, 2024\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "Expectations",
-      "Harassment"
+      "Lab How-To Guides"
     ]
   },
   {
-    "objectID": "expectations/harassment.html#the-quick-version",
-    "href": "expectations/harassment.html#the-quick-version",
-    "title": "Harassment Policy",
-    "section": "The quick version",
-    "text": "The quick version\nOur research group is dedicated to providing a harassment-free experience for everyone, regardless of personal characteristics or background. We do not tolerate harassment in any form. Professional conduct is expected in all settings, including online interactions. Violations may result in sanctions or expulsion from the group.",
-    "crumbs": [
-      "Expectations",
-      "Harassment"
-    ]
-  },
-  {
-    "objectID": "expectations/harassment.html#the-less-quick-version",
-    "href": "expectations/harassment.html#the-less-quick-version",
-    "title": "Harassment Policy",
-    "section": "The less quick version",
-    "text": "The less quick version\nAll Rice employees and students must understand and comply with the University’s policies and procedures regarding harassment and discrimination, including but not limited to the Policy on Harassment and Sexual Misconduct and the Prohibited Behaviors. Our group adopts additional guidelines.\nHarassment includes, but is not limited to:\n\nOffensive comments related to personal characteristics\nUnwelcome sexual attention or imagery\nIntimidation or stalking\nDisruption of the research environment\nInappropriate physical contact\n\nIf you experience or witness harassment, please contact James Doss-Gollin immediately. James can assist with security, law enforcement, or official University reporting channels. Please note that James is a mandatory reporter as defined in University Policy. For concerns about James, or if you prefer he not be involved, contact the Office for Interpersonal Misconduct Prevention and Support, Office of Diversity and Inclusion, or Title IX Office.\nWe expect professional, respectful behavior in all work-related settings, including conferences and social events.",
-    "crumbs": [
-      "Expectations",
-      "Harassment"
-    ]
-  },
-  {
-    "objectID": "expectations/harassment.html#additional-notes",
-    "href": "expectations/harassment.html#additional-notes",
-    "title": "Harassment Policy",
-    "section": "Additional Notes",
-    "text": "Additional Notes\n\nCultural sensitivity: We recognize that cultural norms vary, but within our group, these standards apply to all members regardless of background. We actively encourage open dialogue, seek opportunities to learn from one another, and strive to create an environment where all members feel welcomed, respected, and supported.\nTaking concerns seriously: If someone asks you to stop a behavior that is bothering them, take their request seriously and stop the behavior immediately, even if you don’t understand why it’s problematic.\nRegular review: This policy will be reviewed annually to ensure its effectiveness and relevance.\n\nBy joining this research group, you agree to uphold these standards and contribute to a harassment-free environment that values and celebrates the diversity within our community.",
-    "crumbs": [
-      "Expectations",
-      "Harassment"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to our Lab Guide",
+    "objectID": "joinus/undergrad.html",
+    "href": "joinus/undergrad.html",
+    "title": "Undergraduate Research",
     "section": "",
-    "text": "Welcome to the lab guide for the Doss-Gollin lab in the Department of Civil and Environmental Engineering at Rice University. If you’re looking for our group’s homepage, please find it here.\nThis document codifies lab practices and expectations for new and existing group members and is divided into three main sections:\n\nLab Expectations clarifies the expectations we have for ourselves and for one another.\nLab How-To Guides provides critical resources in the format of blog posts.\nJoin Us guides prospective group members through the process of joining.\n\n\n\n\n\n\n\nContribute\n\n\n\nThis is intended to be a living document and remains a work in progress. Lab and community members are strongly encouraged to contribute to this document! See here for instructions.\n\n\n\nCore values\n\nCreativity. As academics, we enjoy the luxuries of freedom and space that allow us to question the status quo and explore new ideas. With this privilege comes a responsibility to imagine new possibilities and speak uncomfortable truths.\nEquity. We recognize the burdens of systemic inequality and seek to promote fairness and justice.\nExcellence. We strive for excellence in all our activities and aim to be role models in all that we do. We seek to do what is right, not what is easy, and acknowledge when we fall short.\nHumility. We understand the limitations of our expertise and celebrate the academic and community partners with whom we coproduce knowledge. We overcome our limitations by actively seeking out diverse perspectives and challenging our preexisting assumptions.\nOpen Science. Our research is accessible to all levels of society. We approach complex problems with a collaborative mindset. When we make mistakes, we recognize them and do our best to fix them.\n\n\n\n\n\n\n\nCredit\n\n\n\nThe organization and framing of this document borrows heavily from lab guides written by Lab Carpentry, the Advanced Reactors and Fuel Cycles group at UIUC, the Andersen Lab at Northwestern, the Computer-Oriented Geoscience Lab at University of Liverpool, the Ocean Transport Group at the Lamont-Doherty Earth Observatory, the Aly lab at Columbia, the Srikrishnan Lab at Cornell, and the Keller Lab Group at Dartmouth. We thank Jordy Padilla and Yash Amonkar for constructive suggestions.",
+    "text": "!!! info “Credit” Specific language on this page comes from the MemoLab at Boston College.",
     "crumbs": [
-      "Home"
+      "Join Us",
+      "Undergraduate Reserach"
     ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#openings-and-applying",
+    "href": "joinus/undergrad.html#openings-and-applying",
+    "title": "Undergraduate Research",
+    "section": "Openings and Applying",
+    "text": "Openings and Applying\nThere are three main ways to do research as an undergraduate:\n\nFor credit\nAs a senior thesis\nFor pay\n\nPlease see the lab website’s “Join Us” page for advertised positions, although you’re always welcome to reach out if you have a specific idea (see below). Specific positions for pay may be also advertised as announcements on the lab website.\n\nResearch for Credit\nIf you want to work in lab and earn course credit, you can sign up for undergraduate research (discuss CEVE 499 with a program administrator or adviser). We will have to fill out a syllabus contract at the beginning of the semester. Typically you would be in lab for at least 10 hours a week, and you would also be required to attend lab meetings, read a few papers, and complete a few short written assignments. You can enroll in undergraduate research multiple times, subject to the requirements of the University and your degree.\nTo Apply: send me an email from your Rice University account:\n\nPut “CEVE 499: Research for Credit” in the subject line of the email,\nAttach your CV or resume (short is fine, undergrads don’t need a 5 page CV!) as a .pdf file\nAttach a 1-2 page project proposal. The more detailed, the better (see below) as a .pdf file\nSuggest some times when you might be available to talk further in the body of the email.\n\n\n\nSenior Thesis Supervision\nIf you are interested in having me supervise your senior thesis project, I recommend doing research for credit course during your sophomore or junior year. However, this is not a strict requirement (especially in 2021 since I’m new here!!)\nTo Apply: as above (to do research for credit) but put “Senior Thesis Supervision” in the subject line of the email.\n\n\nResearch for Pay\nIf you want to work in lab and earn money, there are two different options. The lab can pay you as a research assistant, typically 5-10 hours per week at $12 per hour or as discussed. We have a limited number of hours available each semester, so these positions are competitive. Open positions may be posted on our lab website, but if you have concrete ideas you can propose a project (see below).\nWe can apply for an undergraduate research fellowship to fund your time in lab. Because these fellowships are intended to support your academic development, undergraduate fellows will be required to participate in lab meetings. This option is also available during the summer.\nTo Apply: as above (to do research for credit) but put “Research for Pay” in the subject line of the email.\n\n\nVolunteer Research\nUnpaid internships give an unfair advantage to those who can afford to volunteer their time and contribute to unequal representation in the field. We do not take unpaid volunteers as research assistants in our lab, except for academic credit.",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#how-to",
+    "href": "joinus/undergrad.html#how-to",
+    "title": "Undergraduate Research",
+    "section": "How To",
+    "text": "How To\n\nWrite a Project Proposal\nA project proposal is a first draft of a semester research plan that we will craft together. This document will lay out research questions, research goals, research milestones and timelines, the tools you will need to carry out the research, and the mentoring and guidance you will need. As you write the first draft, your main goal is to convince me that you’ve thought about what research you want to do, that this research serves some intellectual or career goals that you have, that you have most of the skills you will need to do it, and that it’s something that I would be well suited to supervise. Some things that I’m looking for when reading a project proposal are:\n\nIs the research feasible? (Do you have the skills needed? Do I have the resources needed?)\nIs the research interesting? Do you have a sense of previous work in this area? Are there social, policy, or technical implications?\nAre you going to be motivated? Does this advance real goals that you have?\nAm I the right mentor for this work? Do I have the skills and resources needed to support you?\nDoes this research advance my goals?1",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#faq",
+    "href": "joinus/undergrad.html#faq",
+    "title": "Undergraduate Research",
+    "section": "FAQ",
+    "text": "FAQ\nIf you email me with a question, I may ask your permission to post that question and answer (with anonymity) on this section. This can help future prospective students.",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "joinus/undergrad.html#footnotes",
+    "href": "joinus/undergrad.html#footnotes",
+    "title": "Undergraduate Research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis one is a bit trickier, since you don’t necessarily know my goals! However, if your research is tied to projects I’m working on or have worked on in the past, or if it’s related to something we’ve talked about in the past, there’s a good chance that it advances my goals. Don’t get too stressed about this part.↩︎",
+    "crumbs": [
+      "Join Us",
+      "Undergraduate Reserach"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html",
+    "href": "expectations/expectations.html",
+    "title": "Core Expectations",
+    "section": "",
+    "text": "This document outlines the responsibilities and expectations for everyone in the group. It is a living document and will be updated as the group evolves.",
+    "crumbs": [
+      "Expectations",
+      "Core Expectations"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#everyone",
+    "href": "expectations/expectations.html#everyone",
+    "title": "Core Expectations",
+    "section": "Everyone",
+    "text": "Everyone\n\nEnvironment: Foster a supportive team environment committed to mutual learning and success. Support and help your labmates. Read and follow lab guidelines, suggesting improvements when you see opportunities. Take initiative in your work and in advancing the lab’s mission.\nWorkload: Treat your research as a full-time job, aiming for an average of 40 hours per week. This approach ensures consistent progress while allowing you to benefit from the flexibility academic research offers.\nPresence: Be an active participant in the lab. Attend and contribute to group meetings and seminars, taking turns to lead discussions. Be present in the lab during agreed times and respect shared spaces.\nManage Up: You are responsible for managing your relationship with your advisor(s). Schedule and lead regular 1:1 meetings, preparing agendas and following up on action items. Communicate your needs, goals, and challenges clearly. Seek feedback proactively, propose solutions rather than just problems, and provide respectful feedback on your working relationship.\n\n\nOpen Science\nOpen science is the idea that scientific research should be transparent and accessible to everyone, especially including the taxpaying public that funds a substantial portion of our research. Open science is about democratizing knowledge and accelerating scientific progress to address urgent challenges like climate change, flooding, and poverty. Some key concepts of open science are:\n\nReproducibility: This means obtaining consistent computational results using the same input data, methods, code, and conditions of analysis.\nReplicability: This involves obtaining consistent results across different studies aimed at answering the same scientific question, each with its own data.\nAccessibility: Making research findings, data, and methods available to all levels of society, both amateur and professional.\n\nImplementing this takes skills, and it’s James’s responsibility to provide training and resources to help you develop them, but committing to these principles is everyone’s responsibility. For example:\n\nWe make our data, code, and computational environments publicly available, typically no later than the publication of our work.\nWe prioritize using fully open-source tools whenever possible. When proprietary software or data is necessary, we document its use clearly and provide alternatives where possible.\nWe publish in open-access journals where appropriate and make post-prints freely available when not. We also share preprints on open-access servers.\nWe summarize our findings in non-technical blog posts, translate papers as needed, and use social media to share key findings.\nWe use permissive open-source licenses for our code, respecting and complying with licensing terms.\nWe employ various tools to facilitate reproducible science, including Python, Julia, Git, GitHub, Snakemake, Zenodo, and more.\n\n\n\nHealth and Well-being\nAcademia can be stressful, and it’s important to take care of yourself. Here are some tips:\n\nMaintain a healthy sleep schedule.\nPursue interests and hobbies outside of work to relieve stress and stimulate creative thought.\nDevelop a support network among your peers who understand the challenges.\nUse mental health resources when needed. Seeking help is a worthy investment in yourself.\nStay home when sick to protect your health and that of others.\nTake advantage of Rice’s mental health resources:\n\nWellbeing and Counseling Center\nCounseling Center",
+    "crumbs": [
+      "Expectations",
+      "Core Expectations"
+    ]
+  },
+  {
+    "objectID": "expectations/expectations.html#specific-responsibilities",
+    "href": "expectations/expectations.html#specific-responsibilities",
+    "title": "Core Expectations",
+    "section": "Specific Responsibilities",
+    "text": "Specific Responsibilities\nWe all have different roles and responsibilities in the lab. Here are some guidelines based on your role.\n\nPI (James)\n\nEnvironment: Manage the lab’s social dynamic to create a welcoming, inclusive, and productive atmosphere that brings out the best in everyone and celebrates diverse perspectives.\nDefine Research Directions: Identify socially relevant and scientifically novel research questions, leveraging field awareness, creativity, and insight.\nProvide Technical Leadership: Establish a software and hardware environment that maximizes productivity for all team members.\nScientific Mentoring: Guide junior members in developing into independent scientists through regular meetings, feedback, and strategic planning.\nManage Publication Process: Assist in identifying publishable results, selecting appropriate journals, and navigating the revision process.\nSecure Funding: Obtain grant funding to support the group’s research and ensure coverage of all research-related expenses.\nAcademic Service: Fulfill departmental duties, teach courses, and participate in professional organizations. Serve on student committees and review papers and proposals.\nProvide Comprehensive Feedback: Offer guidance on all aspects of research, from hypothesis formation to data management and paper writing.\nOffer Support: Provide moral support, career advice, and recommendation letters to help members navigate the challenges of research and academic life.\nProject Management: Help structure projects with clear goals, milestones, and timelines, balancing guidance with fostering independence.\n\n\n\nGraduate Students\n\nApply for External Funding: This is required and provides valuable experience. We maintain a list of opportunities.\nBe Professional and Organized: Develop a system for managing responsibilities, coursework, and research.\nDevelop Independence: Pursue your own ideas, attend diverse talks, read widely, and take initiative in your research.\nFocus on Research: Prioritize research over other duties, approaching it with full-time job seriousness.\nStay in Good Standing: Understand and fulfill all graduate school and department requirements and deadlines.\nCareer Planning: Reflect on your career goals and work with James to get necessary training and exposure.\nBalance Independence and Guidance: Learn to strike a balance between working independently and seeking help when needed. Don’t hesitate to ask for assistance, but always come prepared with your thoughts and potential solutions.\nProfessional Development: Take charge of your own professional development. Seek out opportunities for skill-building, networking, and career exploration beyond what’s directly offered in the lab.\n\nRemember, your graduate education is ultimately your responsibility. While James is here to provide guidance and support, you are in charge of your own success and development as a researcher.\n\n\nUndergraduates\n\nLearn a lot\nKeep track of and fulfill all college requirements\nWork on average 10hrs per week (unless otherwise discussed)\nTrack time spent working honestly and accurately\nSubmit weekly written reports and/or slides to James\nAttend lab meetings when consistent with your schedule\nBe helpful, friendly, and open to new ideas",
+    "crumbs": [
+      "Expectations",
+      "Core Expectations"
+    ]
+  },
+  {
+    "objectID": "posts/2024-06-26-lor.html",
+    "href": "posts/2024-06-26-lor.html",
+    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
+    "section": "",
+    "text": "Letters of Recommendation (LORs) play a crucial role in our field, significantly impacting applications for graduate school, academic positions, and industry jobs. While writing these letters is primarily a PI responsibility and part of your PI’s job, there are several steps you can take to ensure you receive a strong and effective letter. This guide aims to demystify the process and provide you with practical advice for securing impactful letters of recommendation."
+  },
+  {
+    "objectID": "posts/2024-06-26-lor.html#determining-when-to-request-a-letter",
+    "href": "posts/2024-06-26-lor.html#determining-when-to-request-a-letter",
+    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
+    "section": "Determining When to Request a Letter",
+    "text": "Determining When to Request a Letter\nAs a general policy, I (James) will write a letter for any student or lab member who has worked in the lab for at least three months. This timeframe allows me to adequately evaluate your work and contributions. For shorter-term lab members, letters may be provided in exceptional circumstances, such as new graduate students or postdocs applying for fellowships.\nIf you’ve only taken a class with me and haven’t worked in the lab, I may not be the strongest letter writer for you. In such cases, I can only speak to your performance in class. However, if you need a letter and don’t have better options, you’re welcome to ask."
+  },
+  {
+    "objectID": "posts/2024-06-26-lor.html#how-to-request-a-letter-of-recommendation",
+    "href": "posts/2024-06-26-lor.html#how-to-request-a-letter-of-recommendation",
+    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
+    "section": "How to Request a Letter of Recommendation",
+    "text": "How to Request a Letter of Recommendation\nTo ensure a smooth process and a strong letter, please follow these guidelines:\n\nProvide ample notice: Request the letter at least three weeks before the deadline. More time is always appreciated.\nSubmit key information in a single email: Please don’t use Slack for this request. Include:\n\nThe letter deadline\nKey points to focus on:\n\nWhat you hope I will highlight about you\nHow your application will be evaluated\nWhy I am particularly well-suited to write your letter\n\nAny materials you’ve submitted as part of your application (draft materials are acceptable)\nClear instructions on how to submit the letter\nA critical self-assessment: Discuss your strengths and areas for growth\n\nKeep communication open: Provide updates as the deadline approaches."
+  },
+  {
+    "objectID": "posts/2024-06-26-lor.html#best-practices-for-securing-strong-letters",
+    "href": "posts/2024-06-26-lor.html#best-practices-for-securing-strong-letters",
+    "title": "A Guide to Requesting Letters of Recommendation: Ensuring Strong Support for Your Applications",
+    "section": "Best Practices for Securing Strong Letters",
+    "text": "Best Practices for Securing Strong Letters\nTo maximize the effectiveness of your letters of recommendation, consider the following resources:\n\nRead Matt Might’s article on “How to get a great letter of recommendation”. It offers valuable insights into the process.\nReview this informative Twitter thread by Dr. Arianna Long, which details how she improved her application success rate, with a focus on securing strong letters of recommendation.\n\nRemember, the strength of your letter of recommendation depends not only on my writing but also on the groundwork you lay in preparing your request and providing comprehensive information. By following these guidelines, you can significantly enhance the quality and impact of your letters of recommendation.\nIf you have any questions about this process, please don’t hesitate to reach out. I’m here to support your academic and professional growth.\n\n\n\n\n\n\nTip\n\n\n\nNote: Shout out to the Peelle Lab at Washington University in Saint Louis for contributing some of the specific language used in this guide."
   },
   {
     "objectID": "posts/2024-06-26-contribute.html",
